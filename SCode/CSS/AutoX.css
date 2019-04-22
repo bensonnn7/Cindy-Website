@@ -1,0 +1,2001 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*mycode*/
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media only screen and (min-width: 1000px){
+    body{
+        overflow-x:unset;
+    }
+}
+*{
+    text-decoration: none ;
+}
+
+hr.line1{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 50px;
+    height: 1px;
+    background-color: #9b9b9b;
+}
+
+
+
+.firAutoDiv{
+    width: 100%;
+    /*height: 482px;*/
+    margin-top: 50px;
+}
+.firAutoDiv div.autoImageDiv{
+    display: none;
+}
+.firAutoDiv div.autoImage1{
+    display: none;
+}
+.firAutoDiv div.autoRightDiv{
+    margin-left: 8%;
+    margin-top: 0;
+    /*width: 209px;*/
+    /*height: 32px;*/
+}
+.firAutoDiv h1.autoX{
+    /*width: 123px;*/
+    /*height: 57px;*/
+
+    margin-left: 0;
+    margin-top: 0;
+    color: #414141;
+}
+.firAutoDiv h5.autoXHeader{
+    margin-top: 3px;
+    margin-left: 0;
+    /*width: 241px;*/
+    /*height: 24px;*/
+}
+#time{
+    margin-top: 20px;
+    height: 22px;
+}
+.firAutoDiv div.autoImage1Mobile{
+    margin-top: 40px;
+    background-image: url("../Images/autoX/autoImage1.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 541px;
+    background-size: contain;
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px){
+    .firAutoDiv{
+        width: 940px;
+        height: 746px;
+        margin:110px auto 0 auto;
+    }
+    .firAutoDiv div.autoImageDiv{
+        display: block;
+        width: 441px;
+        height: 716px;
+        float: left;
+    }
+    .firAutoDiv div.autoImage1{
+        display: block;
+        width: 441px;
+        height: 716px;
+        background-image: url("../Images/autoX/autoImage1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .firAutoDiv div.autoRightDiv{
+        margin-left: 131px;
+        margin-top: 280px;
+        width: 245px;
+        height: 400px;
+        float:left;
+    }
+    .firAutoDiv h1.autoX{
+        width: 123px;
+        height: 57px;
+        color: #414141
+    }
+    .firAutoDiv h5.autoXHeader{
+        width: 242px;
+        height: 24px;
+        color: #414141
+    }
+    #time{
+        margin-top: 30px;
+        width: 99px;
+        height: 22px;
+        color: #414141;
+    }
+    .firAutoDiv div.autoImage1Mobile{
+        display: none;
+    }
+}
+
+
+
+.secBrioSection{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.secBrioSection h3.overview{
+    margin-top: 10px;
+    text-align: center;
+}
+.secBrioSection div.detailDiv{
+    margin-top: 30px;
+}
+#overviewD1{
+
+}
+#overviewD2{
+    margin-top: 20px;
+}
+
+
+
+.secBrioSection hr.line2{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 100%;
+    height: 0.3px;
+    background-color: #979797
+}
+.secBrioSection hr.line2-1{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 100%;
+    height: 0.2px;
+    background-color: #979797
+}
+#labs{
+    color: #1d1d1d;
+}
+#system{
+    margin-top: 8px;
+    color: #1d1d1d;
+}
+#team{
+    margin-top: 11px;
+    color: #414141;
+    /*margin-bottom: 11px;*/
+}
+#duration{
+    margin-top: 11px;
+    color: #414141;
+}
+
+@media only screen and (min-width: 1000px){
+    .secBrioSection{
+        margin: 180px auto 0 auto;
+        height: 270px;
+        width: 940px;
+    }
+    .secBrioSection h3.overview{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .secBrioSection div.detailDiv{
+        float: left;
+        margin-top: 60px;
+        width: 460px;
+        height: 160px;
+    }
+    .secBrioSection div.rightOverDiv{
+        margin-top: 60px;
+        margin-left: 170px;
+        width: 310px;
+        height: 160px;
+        float: left;
+    }
+    #overviewD1{
+        width: 460px;
+        height: 160px;
+    }
+    #overviewD2{
+        margin-top: 0;
+        width: 460px;
+        height: 100px;
+    }
+}
+
+
+/*.secAutoDiv{*/
+    /*margin: 46px 20px 0 20px;*/
+    /*!*height: 788px;*!*/
+    /*width: calc(100% - 40px);*/
+/*}*/
+/*.secAutoDiv h3.overview{*/
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+/*}*/
+
+/*#overviewD{*/
+    /*margin-top: 10px;*/
+/*}*/
+.autoXImage2Div{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 227px;
+    background-color: #f5f5f5;
+
+}
+.autoXImage2Div div.autoxImage2{
+    display: block;
+    width:100%;
+    height: 227px;
+    background-image: url("../Images/autoX/autoImage2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.autoXImage2Div div.autoImage2-1{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .autoXImage2Div{
+        margin: 56px auto 0 auto;
+        width: 100%;
+        height: 450px;
+        background-color: #f5f5f5;
+    }
+    .autoXImage2Div div.autoxImage2{
+        display: block;
+        /*float: left;*/
+        margin-left: auto;
+        margin-right: auto;
+        width:940px;
+        height: 450px;
+        background-image: url("../Images/autoX/autoImage2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+.thi-1hBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.thi-1hBrioSection h3.header{
+    margin-top: 10px;
+    text-align: center;
+}
+.thi-1hBrioSection div.detailDiv{
+    margin-top: 20px;
+}
+#challengesDetail1{
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    .thi-1hBrioSection{
+        margin: 106px auto 0 auto;
+        height: 210px;
+        width: 620px;
+    }
+    .thi-1hBrioSection h3.header{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .thi-1hBrioSection div.detailDiv{
+        margin-top: 30px;
+        width: 620px;
+        height: 130px;
+    }
+    #challengesDetail1{
+        width: 620px;
+        height: 130px;
+    }
+}
+
+
+
+.thi-2hBrioSection{
+    margin: 30px auto 0 auto;
+    height: 240px;
+    width: 100%;
+    /*background-color: #ffffff;*/
+}
+.thi-2hBrioSection div.autoxImage2-2Div{
+    /*padding-top: 20px;*/
+
+
+}
+.thi-2hBrioSection div.autoxImage2-2{
+    padding-top: 20px;
+    height: 200px;
+    width: 100%;
+    content: url("../Images/autoX/autoxImage2-2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .thi-2hBrioSection{
+        margin: 30px auto 0 auto;
+        height: 610px;
+        width: 100%;
+        background-color: #e9e9e9;
+    }
+    .thi-2hBrioSection div.autoxImage2-2Div{
+        /*padding-top: 40px;*/
+        margin: auto;
+        height: 610px;
+        width: 1440px;
+        background-color: #e9e9e9;
+    }
+    .thi-2hBrioSection div.autoxImage2-2{
+        padding-top: 40px;
+        margin: auto;
+        height: 511px;
+        width: 787px;
+        content: url("../Images/autoX/autoxImage2-2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+.thi-3hBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.thi-3hBrioSection h3.header{
+    margin-top: 10px;
+    text-align: center;
+}
+.thi-3hBrioSection div.detailDiv{
+    margin-top: 20px;
+}
+#researchDetail1{
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    .thi-3hBrioSection{
+        margin: 106px auto 0 auto;
+        height: 210px;
+        width: 620px;
+    }
+    .thi-3hBrioSection h3.header{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .thi-3hBrioSection div.detailDiv{
+        margin-top: 30px;
+        width: 620px;
+        height: 130px;
+    }
+    #researchDetail1{
+        width: 620px;
+        height: 130px;
+    }
+}
+
+
+
+.autoXImage2-3Div{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    .autoXImage2-3Div{
+        margin: 56px auto 0 auto;
+        width: 100%;
+        height: 700px;
+        background-color: #f5f5f5;
+    }
+}
+
+
+
+
+
+.thi-4hBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.thi-4hBrioSection h3.header{
+    margin-top: 10px;
+    text-align: center;
+}
+.thi-4hBrioSection div.detailDiv{
+    margin-top: 20px;
+}
+#iterationhDetail1{
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    .thi-4hBrioSection{
+        margin: 200px auto 0 auto;
+        height: 210px;
+        width: 620px;
+    }
+    .thi-4hBrioSection h3.header{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .thi-4hBrioSection div.detailDiv{
+        margin-top: 30px;
+        width: 620px;
+        height: 130px;
+    }
+    #iterationhDetail1{
+        width: 620px;
+        height: 130px;
+    }
+}
+
+
+.autoXImage2-4Div{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    .autoXImage2-4Div{
+        margin: 56px auto 0 auto;
+        width: 100%;
+        height: 520px;
+        background-color: #f5f5f5;
+    }
+
+}
+
+.thi-4hBrioSection{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+#besidesDetail{
+    /*margin-top: 30px;*/
+}
+@media only screen and (min-width: 1020px){
+    .thi-4hBrioSection{
+        margin: 160px auto 0 auto;
+        width: 620px;
+        height: 130px;
+    }
+    #besidesDetail{
+        /*margin-top: 30px;*/
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thiAutoDiv{
+    /*height: 710px;*/
+    /*margin: 160px auto 0 auto;*/
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+
+.thiAutoDiv h3.mobilAppHeader{
+  text-align: center;
+  color: #414141;
+}
+
+.thiAutoDiv div.mobilAppTextDiv{
+    margin-top: 10px;
+}
+.thiAutoDiv h4.scope{
+
+}
+#scopeD{
+
+}
+.thiAutoDiv h4.signUp{
+    margin-top: 20px;
+}
+#sighUpD{
+}
+.thiAutoDiv div.sighUpDD{
+    margin-top: 10px;
+}
+#sighupD2{
+    margin-top: 10px;
+}
+#sighupD3{
+    margin-top: 10px;
+
+}
+.thiAutoDiv div.rightMobilAppDiv{
+    /*margin-top: 20px;*/
+    margin: 20px auto 0 auto;
+    /*margin-left: 180px;*/
+    width: 200px;
+    height: 400px;
+}
+.thiAutoDiv div.autoImage3{
+    /*margin-left: 10px;*/
+    /*width: 300px;*/
+    width: 200px;
+    height: 400px;
+    background-image: url("../Images/autoX/autoXimage3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.shopDiv{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.shopDiv h4.shopHeader{
+}
+#shopD{
+    margin-top: 10px;
+}
+
+
+.autoImage4Div{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 310px;
+}
+.autoImage4Div div.autoImage4{
+    /*background-image: url("../Images/autoImage4.png");*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+.autoImage4Div div.autoImage5Div{
+
+    /*padding:64px auto 30px auto;*/
+    margin: 0px 20px 0 20px;
+    /*width: calc(100% - 40px);*/
+    height: 310px;
+}
+.autoImage4Div div.autoImage5{
+    /*background-image: url("../Images/autoImage5.png");*/
+    content:url("../Images/autoX/autoImage5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*width: 100%;*/
+    height: 310px;
+    padding-top: 0;
+
+}
+
+@media only screen and (min-width: 1000px){
+    .thiAutoDiv{
+        width: 940px;
+        height: 710px;
+        /*margin: 160px auto 0 auto;*/
+        margin-top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .thiAutoDiv h3.mobilAppHeader{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .thiAutoDiv hr.line1{
+        margin: 12px auto 0 auto;
+        position: center;
+        width: 50px;
+        height: 1px;
+        background-color: #9b9b9b;
+    }
+    .thiAutoDiv div.mobilAppTextDiv{
+        height: 600px;
+        width: 460px;
+        float: left;
+        margin-top: 120px;
+        clear: left;
+    }
+    .thiAutoDiv h4.scope{
+        width: 149px;
+        height: 27px;
+    }
+    #scopeD{
+        margin-top: 10px;
+        width: 460px;
+        height: 130px;
+    }
+    .thiAutoDiv h4.signUp{
+        margin-top: 0;
+        width: 82px;
+        height: 27px;
+    }
+    #sighUpD{
+        width: 460px;
+        height: 208px;
+        margin-top: 10px;
+    }
+    .thiAutoDiv div.sighUpDD{
+        margin-top: 20px;
+        width: 460px;
+        height: 78px;
+    }
+    #sighupD2{
+        margin-top: 5px;
+    }
+    #sighupD3{
+        margin-top: 5px;
+    }
+    .thiAutoDiv div.rightMobilAppDiv{
+        margin: 60px 0 0 19%;
+        /*margin-top: 40px;*/
+        /*margin-left: 19%;*/
+        /*margin-left: 180px;*/
+        float: left;
+        width: 300px;
+        height: 600px;
+    }
+    .thiAutoDiv div.autoImage3{
+        margin-left: 0;
+        width:300px;
+        height: 600px;
+        /*background-image: url("../Images/autoXimage3.png");*/
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /*.thiAutoDiv div.appframe{*/
+        /*width: 300px;*/
+        /*height: 100%*/
+    /*}*/
+    .shopDiv{
+        margin: 160px auto 0 auto;
+        clear: left;
+        width: 620px;
+        height: 115px;
+    }
+    .shopDiv h4.shopHeader{
+        width: 55px;
+        height: 27px;
+    }
+    #shopD{
+        margin-top: 10px;
+        width: 620px;
+        height: 78px;
+    }
+    .autoImage4Div{
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 744px;
+    }
+    .autoImage4Div div.autoImage4{
+        display: block;
+        background-image: url("../Images/autoX/autoImage4.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 1440px;
+        height: 744px;
+        margin: 0 auto;
+    }
+    .autoImage4Div div.autoImage5Div{
+        width: 700px;
+        height: 744px;
+        /*padding:64px auto 30px auto;*/
+        margin:0px auto 0 auto;
+    }
+    .autoImage4Div div.autoImage5{
+        /*background-image: url("../Images/autoImage5.png");*/
+        content:url("../Images/autoX/autoImage5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 700px;
+        height: 650px;
+        padding-top: 64px;
+
+    }
+}
+.fouAutoDivContainer{
+    /*margin-top: 30px;*/
+    width: 100%;
+    /*background-color: #efefef;*/
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.fouAutoDiv{
+    margin: 0 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.fouAutoDiv div.checkOutDiv{
+}
+.fouAutoDiv div.checkOutRightDiv{
+    height: 400px;
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+.fouAutoDiv h4.checkOutTitle{
+
+}
+#checkOutD1{
+    margin-top: 10px;
+}
+#checkOutD2{
+    margin-top: 20px;
+}
+.fouAutoDiv div.checkOutDD{
+    margin-top: 20px;
+}
+#d1{
+
+}
+#d2{
+    margin-top: 10px;
+}
+#d3{
+    margin-top: 10px;
+}
+#d4{
+    margin-top: 10px;
+}
+#d5{
+    margin-top: 10px;
+}
+.fouAutoDiv div.autoImage6{
+    width: 200px;
+    height: 400px;
+    background-image: url("../Images/autoX/autoImage6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.unLockDiv{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.unLockDiv h4.unLockHeader{
+
+}
+.unLockDiv div.unlockDDiv{
+    margin-top: 10px;
+}
+#unlockd1{
+
+}
+#unlockd2{
+    margin-top: 10px;
+}
+.autoImage7Div{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 350px;
+}
+.autoImage7Div div.autoImage7{
+    /*background-image: url("../Images/autoImage7.png");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
+.autoImage7Div div.autoImage8Div{
+    width: 300px;
+    height: 280px;
+    /*padding:64px auto 30px auto;*/
+    margin:0px auto 0 auto;
+}
+.autoImage7Div div.autoImage8{
+    /*background-image: url("../Images/autoImage5.png");*/
+    content:url("../Images/autoX/autoImage8.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 280px;
+    padding-top: 0;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .fouAutoDivContainer{
+        padding-top: 160px;
+        padding-bottom: 30px;
+        height:600px ;
+    }
+    .fouAutoDiv{
+        width: 940px;
+        margin:0 auto 0 auto;
+        height: 700px;
+    }
+    .fouAutoDiv div.checkOutDiv{
+        width: 445px;
+        height: 600px;
+        float: left;
+    }
+    .fouAutoDiv div.checkOutRightDiv{
+        float: left;
+        /*margin-left: 195px;*/
+        height: 600px;
+        width: 300px;
+        margin: 0 auto 0 195px;
+    }
+    .fouAutoDiv h4.checkOutTitle{
+        width: 110px;
+        height: 27px;
+    }
+    #checkOutD1{
+        margin-top: 10px;
+        width: 445px;
+        height: 110px;
+    }
+    #checkOutD2{
+        margin-top: 20px;
+        width: 445px;
+        height: 25px;
+    }
+    .fouAutoDiv div.checkOutDD{
+        margin-top: 20px;
+        width: 514px;
+        height: 130px;
+    }
+    #d1{
+
+    }
+    #d2{
+        margin-top: 10px;
+    }
+    #d3{
+        margin-top: 10px;
+    }
+    #d4{
+        margin-top: 10px;
+    }
+    #d5{
+        margin-top: 10px;
+    }
+    .fouAutoDiv div.autoImage6{
+        /*background-image: url("../Images/autoImage6.png");*/
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 300px;
+    }
+    .unLockDiv{
+        width: 620px;
+        height: 271px;
+        margin: 197px auto 0 auto;
+    }
+    .unLockDiv h4.unLockHeader{
+        width: 74px;
+        height: 27px;
+    }
+    .unLockDiv div.unlockDDiv{
+        margin-top: 10px;
+        height: 234px;
+        width: 620px;
+    }
+    #unlockd1{
+
+    }
+    #unlockd2{
+        margin-top: 20px;
+    }
+
+    .autoImage7Div{
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 744px;
+    }
+    .autoImage7Div div.autoImage7{
+        background-image: url("../Images/autoX/autoImage7.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 1440px;
+        height: 744px;
+        margin: 0 auto;
+    }
+    .autoImage7Div div.autoImage8Div{
+        width: 700px;
+        height: 744px;
+        /*padding:64px auto 30px auto;*/
+        margin:0px auto 0 auto;
+    }
+    .autoImage7Div div.autoImage8{
+        /*background-image: url("../Images/autoImage5.png");*/
+        content:url("../Images/autoX/autoImage8.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 700px;
+        height: 650px;
+        padding-top: 64px;
+    }
+}
+
+.fivAutoDiv {
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+
+.fivAutoDiv h3.ChallengesHeader {
+        text-align: center;
+}
+.fivAutoDiv div.contentDiv{
+    margin-top: 0;
+}
+.fivAutoDiv div.leftChallengesDiv {
+    /* margin-top: 20px; */
+}
+
+.fivAutoDiv div.autoImage9 {
+    display: none;
+    width: 325px;
+    height: 579px;
+    background-image: url("../Images/autoX/autoImage9.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fivAutoDiv div.rightChallengesDiv {
+    margin-top: 10px;
+    margin-left: auto;
+}
+.fivAutoDiv div.leftChallengesDivMobile{
+    margin-top: 20px;
+}
+.fivAutoDiv div.autoImage9Mobile{
+    margin:0 auto;
+    width: 300px;
+    height: 550px;
+    background-image: url("../Images/autoX/autoImage9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.fivAutoDiv h4.types {
+}
+
+#typesD {
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .fivAutoDiv {
+        width: 940px;
+        height: 710px;
+        /*margin: 160px auto 0 auto;*/
+        margin-top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fivAutoDiv h3.ChallengesHeader {
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+
+    }
+    .fivAutoDiv div.contentDiv{
+        margin-top: 80px;
+        width: 940px;
+        height: 579px;
+    }
+    .fivAutoDiv div.leftChallengesDiv {
+        margin-top: 0;
+        display: block;
+        /*margin-top: 40px;*/
+        /*margin-left: 19%;*/
+        float: left;
+        width: 325px;
+        height: 579px;
+    }
+    .fivAutoDiv div.leftChallengesDivMobile{
+        display: none;
+    }
+    .fivAutoDiv div.autoImage9Mobile{
+        display: none;
+    }
+
+    .fivAutoDiv div.autoImage9 {
+        display: block;
+        width: 325px;
+        height: 579px;
+        background-image: url("../Images/autoX/autoImage9.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .fivAutoDiv div.rightChallengesDiv {
+      margin-top: 0;
+        margin-left: 75px;
+        height: 579px;
+        width: 460px;
+        float: left;
+    }
+
+    .fivAutoDiv h4.types {
+        width: 440px;
+        height: 27px;
+    }
+
+    #typesD {
+        margin-top: 10px;
+        width: 460px;
+        height: 156px;
+    }
+}
+
+
+
+.sixAutoDiv {
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.sixAutoDiv div.DeliverNowLeftDiv{
+
+}
+.sixAutoDiv div.DeliverNowRightDiv{
+    margin: 10px auto 0 auto;
+    height: 550px;
+    width: 100%;
+}
+.sixAutoDiv h4.DeliverNowHeader{
+
+}
+#DeliverNowD{
+    margin-top: 10px;
+}
+
+.sixAutoDiv h2.numbers1{
+    margin-top: 20px;
+}
+#numberWords1{
+    width: 200px;
+    margin-top: 8px;
+}
+
+.sixAutoDiv h2.numbers2{
+    margin-top: 28px;
+}
+#numberWords2{
+    width: 200px;
+    margin-top: 8px;
+}
+
+
+.sixAutoDiv div.autoImage10{
+    margin: 0 auto;
+    background-image: url("../Images/autoX/autoImage10.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 300px;
+}
+.sixAutoDiv div.autoImage11{
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .sixAutoDiv{
+        width: 940px;
+        margin:162px auto 0 auto;
+        height: 475px
+    }
+    .sixAutoDiv div.DeliverNowLeftDiv{
+        width: 340px;
+        height: 475px;
+        float: left;
+    }
+    .sixAutoDiv div.DeliverNowRightDiv{
+        margin: 0 0 0 55px;
+        float: left;
+        /*margin-left: 60px;*/
+        height: 455px;
+        width: 461px;
+    }
+    .sixAutoDiv h4.DeliverNowHeader{
+        width: 235px;
+        height: 27px;
+    }
+    #DeliverNowD{
+        margin-top: 10px;
+        width: 340px;
+        height: 208px;
+    }
+
+    .sixAutoDiv h2.numbers1{
+        margin-top: 20px;
+    }
+    #numberWords1{
+        width: 200px;
+        margin-top: 8px;
+    }
+
+    .sixAutoDiv h2.numbers2{
+        margin-top: 28px;
+    }
+    #numberWords2{
+        width: 200px;
+        margin-top: 8px;
+    }
+
+    .sixAutoDiv div.autoImage10{
+        margin: 0;
+        background-image: url("../Images/autoX/autoImage10.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 455px;
+        width: 461px;
+        float: left;
+    }
+}
+
+
+
+
+.lastsixAutoDiv {
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.lastsixAutoDiv div.DeliverOptionLeftDiv{
+
+}
+.lastsixAutoDiv div.DeliverOptionRightDiv{
+    margin: 10px auto 0 auto;
+    height: 550px;
+    width: 100%;
+}
+.lastsixAutoDiv h4.DeliverOptionHeader{
+
+}
+#DeliverOptionwD{
+    margin-top: 10px;
+}
+.lastsixAutoDiv div.leftAndright{
+    margin-top: 20px;
+    width: 460px;
+    height: 108px;
+}
+.lastsixAutoDiv div.left{
+    float: left;
+    width: 200px;
+    height: 108px;
+
+}
+
+.lastsixAutoDiv h2.numbers1{
+
+}
+#numberWords1{
+    width: 200px;
+    margin-top: 8px;
+}
+.lastsixAutoDiv div.right{
+    margin-left: 30px;
+    float: left;
+    width: 200px;
+    height: 108px;
+}
+.lastsixAutoDiv h2.numbers2{
+}
+#numberWords2{
+    width: 200px;
+    margin-top: 8px;
+}
+
+
+.lastsixAutoDiv div.autoImage10{
+    margin: 0 auto;
+    background-image: url("../Images/autoX/autoImage10-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 300px;
+}
+
+#lastOption{
+    margin-top: 30px;
+    clear: both;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .lastsixAutoDiv{
+        width: 940px;
+        margin:162px auto 0 auto;
+        height: 455px
+    }
+    .lastsixAutoDiv div.DeliverOptionLeftDiv{
+        width: 340px;
+        height: 475px;
+        float: left;
+    }
+    .lastsixAutoDiv div.DeliverOptionRightDiv{
+        margin: 0 0 0 55px;
+        float: left;
+        /*margin-left: 60px;*/
+        height: 455px;
+        width: 460px;
+    }
+    .lastsixAutoDiv h4.DeliverOptionHeader{
+        /*width: 235px;*/
+        height: 27px;
+    }
+    #DeliverOptionwD{
+        margin-top: 10px;
+        /*width: 340px;*/
+        height: 208px;
+    }
+
+    .lastsixAutoDiv h2.numbers1{
+        /*margin-top: 20px;*/
+    }
+    #numberWords3{
+        width: 200px;
+        height: 54px;
+        margin-top: 8px;
+    }
+
+    .lastsixAutoDiv h2.numbers2{
+        /*margin-top: 28px;*/
+    }
+    #numberWords4{
+        width: 200px;
+        height: 54px;
+        margin-top: 8px;
+    }
+
+    .lastsixAutoDiv div.autoImage10{
+        margin: 0;
+        background-image: url("../Images/autoX/autoImage10-1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 385px;
+        width: 343px;
+        float: left;
+    }
+    #lastOption{
+        margin-top: 30px;
+        width: 460px;
+        height: 52px;
+    }
+}
+
+
+
+
+
+.orderState{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.orderState h4.intro{
+
+}
+#state1{
+    margin-top: 10px;
+}
+.orderState h4.FioriIntro{
+    margin-top: 50px;
+}
+#state2{
+    margin-top: 10px;
+}
+#Metor{
+    color: #2368b8;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+}
+.orderState div.stateImage{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    /*height need to be change later*/
+    background-image: url("../Images/autoX/stateImage.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1020px){
+    .orderState{
+        margin: 160px auto 0 auto;
+        width: 620px;
+        height: 395px;
+    }
+    .orderState h4.intro{
+
+    }
+    #state1{
+        margin-top: 10px;
+
+    }
+    .orderState h4.FioriIntro{
+        margin-top: 80px;
+    }
+    #state2{
+        margin-top: 20px;
+    }
+    .orderState div.stateImage{
+        margin-top: 38px;
+        height: 90px;
+        width: 590px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+
+.nextState{
+    margin: 30px auto 0 auto;
+    height: 240px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.nextState div.nextStateDiv{
+    /*padding-top: 20px;*/
+
+
+}
+.nextState div.stateImage2{
+    height: 200px;
+    width: 100%;
+    content: url("../Images/autoX/stateImage2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .nextState{
+        margin: 30px auto 0 auto;
+        height: 590px;
+        width: 100%;
+        background-color: #e9e9e9;
+    }
+    .nextState div.nextStateDiv{
+        /*padding-top: 50px;*/
+        margin: auto;
+        height: 590px;
+        width: 1440px;
+        background-color: #e9e9e9;
+    }
+    .nextState div.stateImage2{
+        margin: auto;
+        padding-top: 50px;
+        height: 500px;
+        width: 844px;
+        content: url("../Images/autoX/stateImage2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+.midState{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+#midStateDetail{
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    .midState{
+        margin: 60px auto 0 auto;
+        height: 156px;
+        width: 620px;
+    }
+    #midStateDetail{
+        width: 620px;
+        height: 156px;
+    }
+}
+
+
+.lastState{
+    margin: 30px auto 0 auto;
+    height: 240px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.lastState div.lastStateDiv{
+    /*padding-top: 20px;*/
+
+
+}
+.lastState div.stateImage3{
+    height: 200px;
+    width: 100%;
+    content: url("../Images/autoX/stateImage3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .lastState{
+        margin: 30px auto 0 auto;
+        height: 590px;
+        width: 100%;
+        background-color: #e9e9e9;
+    }
+    .lastState div.lastStateDiv{
+        /*padding-top: 50px;*/
+        margin: auto;
+        height: 590px;
+        width: 1440px;
+        background-color: #e9e9e9;
+    }
+    .lastState div.stateImage3{
+        margin: auto;
+        padding-top: 50px;
+        height: 504px;
+        width: 813px;
+        content: url("../Images/autoX/stateImage3.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+
+.sevenAutoDiv{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.sevenAutoDiv div.contentDiv{
+}
+.sevenAutoDiv div.leftArrivalDiv {
+    /*margin-left: 19%;*/
+    display: none;
+
+}
+
+.sevenAutoDiv div.autoImage12 {
+    display: none;
+    width: 325px;
+    height: 579px;
+    background-image: url("../Images/autoX/autoImage12.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sevenAutoDiv div.rightArrivalDiv {
+    margin-top: 20px;
+}
+
+.sevenAutoDiv h4.Estimated {
+
+}
+
+#EstimatedD {
+    margin-top: 10px;
+}
+.sevenAutoDiv div.leftArrivalDivMobile{
+    width: 100%;
+    height: 420px;
+    margin: 20px auto 0 auto;
+}
+.sevenAutoDiv div.autoImage12Mobile{
+    margin: auto;
+    width: 240px;
+    height: 420px;
+    background-image: url("../Images/autoX/autoImage12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .sevenAutoDiv {
+        width: 940px;
+        height: 578px;
+        /*margin: 160px auto 0 auto;*/
+        margin-top: 175px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sevenAutoDiv div.contentDiv{
+        width: 940px;
+        height: 579px;
+    }
+    .sevenAutoDiv div.leftArrivalDiv {
+        /*margin-left: 19%;*/
+        display: block;
+        float: left;
+        width: 325px;
+        height: 579px;
+    }
+
+    .sevenAutoDiv div.autoImage12 {
+        display: block;
+        width: 325px;
+        height: 579px;
+        background-image: url("../Images/autoX/autoImage12.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .sevenAutoDiv div.rightArrivalDiv {
+        margin-left: 75px;
+        height: 579px;
+        width: 460px;
+        float: left;
+        margin-top: 0;
+    }
+
+    .sevenAutoDiv h4.Estimated {
+        width: 440px;
+        height: 27px;
+    }
+
+    #EstimatedD {
+        margin-top: 10px;
+        width: 460px;
+        height: 156px;
+    }
+    .sevenAutoDiv div.leftArrivalDivMobile{
+        display: none;
+    }
+    .sevenAutoDiv div.autoImage12Mobile{
+        display: none;
+    }
+}
+.eightAutoDiv{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.eightAutoDiv div.WhattodoLeftDiv{
+}
+.eightAutoDiv div.WhattodoRightDiv{
+}
+.eightAutoDiv h4.WhattodoHeader{
+
+}
+#WhattodoD{
+    margin-top: 10px;
+}
+
+.eightAutoDiv div.autoImage13{
+    background-image: url("../Images/autoX/autoImage13.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 300px;
+    margin: 10px auto;
+}
+.eightAutoDiv div.autoImage14{
+    /*background-image: url("../Images/autoImage11.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 100%;*/
+    /*height: 463px;*/
+    /*width: 260px;*/
+    /*float: left;*/
+    /*margin-left: 20px;*/
+}
+
+@media only screen and (min-width: 1000px) {
+    .eightAutoDiv{
+        width: 940px;
+        margin:162px auto 0 auto;
+        height: 463px
+    }
+    .eightAutoDiv div.WhattodoLeftDiv{
+        width: 340px;
+        height: 463px;
+        float: left;
+    }
+    .eightAutoDiv div.WhattodoRightDiv{
+        float: left;
+        margin-left: 60px;
+        height: 463px;
+        width: 540px;
+    }
+    .eightAutoDiv h4.WhattodoHeader{
+        width: 349px;
+        height: 27px;
+    }
+    #WhattodoD{
+        margin-top: 10px;
+        width: 325px;
+        height: 286px;
+
+    }
+
+    .eightAutoDiv div.autoImage13{
+        margin: 0;
+        background-image: url("../Images/autoX/autoImage13.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 463px;
+        width: 260px;
+        float: left;
+    }
+    .eightAutoDiv div.autoImage14{
+        background-image: url("../Images/autoX/autoImage14.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 463px;
+        width: 260px;
+        float: left;
+        margin-left: 20px;
+    }
+}
+
+.nineAutoDiv{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.nineAutoDiv h3.VisualDesignHeader {
+  text-align: center;
+}
+#visualDesignD{
+  margin-top: 10px
+}
+.nineAutoDiv div.autoImage15{
+    margin:20px auto 0 auto;
+    width: 100%;
+    height: 230px;
+    background-image: url("../Images/autoX/autoImage15.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nineAutoDiv div.autoImage16{
+    margin:30px auto 0 auto;
+    width: 100%;
+    height: 250px;
+    background-image: url("../Images/autoX/autoImage16.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px) {
+    .nineAutoDiv{
+        /*marin-top: 200px;*/
+        width: 940px;
+        margin:162px auto 0 auto;
+        height: 1210px
+    }
+    .nineAutoDiv h3.VisualDesignHeader {
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    #visualDesignD{
+        margin: 30px auto 0 auto;
+        width: 620px;
+        height: 104px;
+        align-content: center;
+    }
+    .nineAutoDiv div.autoImage15{
+        margin:60px auto 0 auto;
+        width: 620px;
+        height: 430px;
+        background-image: url("../Images/autoX/autoImage15.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .nineAutoDiv div.autoImage16{
+        margin:120px auto 0 auto;
+        width: 620px;
+        height: 430px;
+        background-image: url("../Images/autoX/autoImage16.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+.tenAutoDiv{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.tenAutoDiv h3.SafetyBookHeader {
+    text-align: center;
+}
+#SafetyBookD{
+    margin-top: 20px;
+    align-content: center;
+}
+@media only screen and (min-width: 1000px) {
+    .tenAutoDiv{
+        maring-top: 200px;
+        width: 940px;
+        margin:162px auto 0 auto;
+        height: 211px
+    }
+    .tenAutoDiv h3.SafetyBookHeader {
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    #SafetyBookD{
+        margin: 30px auto 0 auto;
+        width: 620px;
+        height: 104px;
+    }
+    #autoXlink{
+        color: #2368b8;
+    }
+    #autoXlink:hover{
+        border-bottom: solid 1px #2368b8;
+    }
+}
+.elevenAutoDiv{
+    margin-top: 30px;
+    width: 100%;
+    height: 1525px;
+}
+.elevenAutoDiv div.imageDiv1{
+    margin:0 auto 0 auto;
+    width: 100%;
+    height: 595px;
+}
+.elevenAutoDiv div.imageDiv2{
+    /*margin:30px auto 0 auto;*/
+    width: 100%;
+    height: 595px;
+}
+.elevenAutoDiv div.autoImage17{
+    height: 500px;
+    width: 100%;
+    background-image: url("../Images/autoX/autoImage17.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.elevenAutoDiv div.autoImage18{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-image: url("../Images/autoX/autoImage18.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.elevenAutoDiv div.autoImage19{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-image: url("../Images/autoX/autoImage19.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media only screen and (min-width: 1000px) {
+    .elevenAutoDiv{
+        margin-top: 30px;
+        width: 100%;
+        height: 1220px;
+    }
+    .elevenAutoDiv div.imageDiv1{
+        margin:0 auto 0 auto;
+        width: 1440px;
+        height: 595px;
+    }
+    .elevenAutoDiv div.imageDiv2{
+        margin:30px auto 0 auto;
+        width: 1440px;
+        height: 595px;
+    }
+    .elevenAutoDiv div.autoImage17{
+        height: 595px;
+        width: 458px;
+        background-image: url("../Images/autoX/autoImage17.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .elevenAutoDiv div.autoImage18{
+        margin-top: 0;
+        margin-left: 33px;
+        height: 595px;
+        width: 458px;
+        background-image: url("../Images/autoX/autoImage18.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .elevenAutoDiv div.autoImage19{
+        margin-top: 0;
+        margin-left: 33px;
+        height: 595px;
+        width: 458px;
+        background-image: url("../Images/autoX/autoImage19.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .elevenAutoDiv div.autoImage20{
+        height: 595px;
+        width: 458px;
+        background-image: url("../Images/autoX/autoImage20.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .elevenAutoDiv div.autoImage21{
+        margin-left: 33px;
+        height: 595px;
+        width: 458px;
+        background-image: url("../Images/autoX/autoImage21.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .elevenAutoDiv div.autoImage22{
+        margin-left: 33px;
+        height: 595px;
+        width: 458px;
+        background-image: url("../Images/autoX/autoImage22.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+    }
+}
+

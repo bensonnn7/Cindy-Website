@@ -1,0 +1,919 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+/*mycode*/
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media only screen and (min-width: 1020px){
+    body{
+        overflow-x:unset;
+    }
+}
+*{
+    text-decoration: none ;
+}
+
+#link1{
+    color: #2368b8;
+}
+.section1{
+    width:100%;
+    margin: 100px auto 0 auto;
+}
+.section1 h5.intro{
+    color: #2368b8;
+    text-align: center;
+}
+.section1 h1.NativeIOS{
+    margin: 8px auto 0 auto;
+    text-align: center;
+}
+#date{
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+@media only screen and (min-width: 1020px){
+    .section1{
+        width: 100%;
+        height: 200px;
+        margin: 220px auto 0 auto;
+    }
+    .section1 h5.intro{
+
+    }
+    .section1 h1.NativeIOS{
+        width: 694px;
+    }
+    #date{
+
+    }
+}
+
+
+.section2{
+    margin-top: 60px;
+    width: 100%;
+}
+.section2 div.NativeIOSImage1{
+    width: 100%;
+    height: 100px;
+    /*height need to be change later*/
+    background-image: url("../Images/NativeIOS/NativeIOSImage1.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+
+}
+@media only screen and (min-width: 1020px){
+    .section2{
+        width: 1440px;
+        height: 390px;
+        margin: 60px auto 0 auto;
+    }
+    .section2 div.NativeIOSImage1{
+        height: 390px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+.section3{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.section3 h4.intro{
+    margin-top: 50px;
+}
+#threeDay1{
+     margin-top: 10px;
+ }
+#threeDay2{
+    margin-top: 20px;
+}
+#threeDay3{
+    margin-top: 60px;
+}
+
+#thirdAbstractDetail1{
+    margin-top: 10px;
+}
+
+.section3 div.NativeIOSImage2{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    /*height need to be change later*/
+    background-image: url("../Images/NativeIOS/NativeIOSImage2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1020px){
+    .section3{
+        margin: 80px auto 0 auto;
+        width: 620px;
+        height: 960px;
+    }
+    .section3 h4.intro{
+        margin-top: 120px;
+    }
+    #sdkDetail{
+        margin-top: 10px;
+    }
+
+    #thirdAbstractDetail2{
+        margin-top: 40px;
+        height: 104px;
+    }
+    .section3 div.NativeIOSImage2{
+        margin-top: 70px;
+        height: 100px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: contain;
+    }
+}
+
+.section4{
+    margin-top: 40px;
+    width: 100%;
+}
+.section4 div.NativeIOSImage3{
+    width: 100%;
+    height: 150px;
+    /*height need to be change later*/
+    background-image: url("../Images/NativeIOS/NativeIOSImage4.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+
+}
+@media only screen and (min-width: 1020px){
+    .section4{
+        width: 1440px;
+        height: 481px;
+        margin: 40px auto 0 auto;
+    }
+    .section4 div.NativeIOSImage3{
+        height: 481px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+.endSection4{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+#SupportDetail{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .endSection4{
+        margin: 120px auto 0 auto;
+        width: 620px;
+        height: 193px;
+    }
+    #SupportDetail{
+        margin-top: 10px;
+    }
+}
+
+
+.line1{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+    position: center;
+    height: 0.2px;
+    background-color: #979797;
+}
+@media only screen and (min-width: 1020px){
+    .line1{
+        margin: 10px auto 0 auto;
+        position: center;
+        width: 50px;
+        height: 0.2px;
+        background-color: #979797;
+    }
+}
+
+
+
+
+.section5{
+     margin: 60px 20px 0 20px;
+     /*height: 788px;*/
+     width: calc(100% - 40px);
+ }
+.section5 h3.samples{
+    text-align: center;
+}
+
+
+#sampleDetail{
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section5{
+        margin: 200px auto 0 auto;
+        width: 620px;
+        height: 130px;
+    }
+    #sampleDetail{
+        margin-top: 30px;
+    }
+}
+
+
+.section6{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+
+#porsheDetail{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section6{
+        margin: 80px auto 0 auto;
+        width: 620px;
+        height: 130px;
+    }
+    #porsheDetail{
+        margin-top: 10px;
+    }
+}
+
+
+.section7{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 310px;
+    background-color: #e6e6e6;
+
+}
+
+.section7 div.NativeIOSImage5Div{
+
+    /*padding:64px auto 30px auto;*/
+    margin: 0px 20px 0 20px;
+    /*width: calc(100% - 40px);*/
+    height: 310px;
+}
+.section7 div.NativeIOSImage5{
+    /*background-image: url("../Images/autoImage5.png");*/
+    content:url("../Images/NativeIOS/NativeIOSImage5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*width: 100%;*/
+    height: 310px;
+    padding-top: 0;
+    margin: auto;
+
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section7{
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 855px;
+        background-color: unset;
+    }
+
+    .section7 div.NativeIOSImage5Div{
+        width: 1440px;
+        height: 855px;
+        /*padding:64px auto 30px auto;*/
+        margin:0px auto 0 auto;
+        background-color: #e6e6e6;
+    }
+    .section7 div.NativeIOSImage5{
+        margin: auto;
+        /*background-image: url("../Images/autoImage5.png");*/
+        content:url("../Images/NativeIOS/NativeIOSImage5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 700px;
+        height: 650px;
+        padding-top: 137px;
+
+    }
+
+}
+
+
+.section8{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+
+#mapleDetail{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section8{
+        margin: 200px auto 0 auto;
+        width: 620px;
+        height: 115px;
+    }
+    #mapleDetail{
+        margin-top: 10px;
+    }
+}
+
+
+.section9{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 310px;
+    background-color: #46cdce;
+
+}
+
+.section9 div.NativeIOSImage6Div{
+
+    /*padding:64px auto 30px auto;*/
+    margin: 0px 20px 0 20px;
+    /*width: calc(100% - 40px);*/
+    height: 310px;
+    background-color: #46cdce;
+}
+.section9 div.NativeIOSImage6{
+    /*background-image: url("../Images/autoImage5.png");*/
+    content:url("../Images/NativeIOS/NativeIOSImage5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*width: 100%;*/
+    height: 310px;
+    padding-top: 0;
+    margin: auto;
+
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section9{
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 855px;
+        background-color: unset;
+
+    }
+
+    .section9 div.NativeIOSImage6Div{
+        width: 1440px;
+        height: 855px;
+        /*padding:64px auto 30px auto;*/
+        margin:0px auto 0 auto;
+        background-color: #46cdce;
+    }
+    .section9 div.NativeIOSImage6{
+        margin: auto;
+        /*background-image: url("../Images/autoImage5.png");*/
+        content:url("../Images/NativeIOS/NativeIOSImage6.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 640px;
+        height: 735px;
+        padding-top: 120px;
+
+    }
+
+}
+
+
+.section10{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+
+#SAPDetail{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section10{
+        margin: 200px auto 0 auto;
+        width: 620px;
+        height: 115px;
+    }
+    #SAPDetail{
+        margin-top: 10px;
+    }
+}
+
+
+.section11{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 310px;
+    background-color: #4a90e2;
+
+}
+
+.section11 div.NativeIOSImage7Div{
+
+    /*padding:64px auto 30px auto;*/
+    margin: 0px 20px 0 20px;
+    /*width: calc(100% - 40px);*/
+    height: 310px;
+    /*background-color: #4a90e2;*/
+}
+.section11 div.NativeIOSImage7{
+    /*background-image: url("../Images/autoImage5.png");*/
+    content:url("../Images/NativeIOS/NativeIOSImage7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*width: 100%;*/
+    height: 310px;
+    padding-top: 0;
+    margin: auto;
+
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section11{
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 855px;
+        background-color: unset;
+    }
+
+    .section11 div.NativeIOSImage7Div{
+        width: 1440px;
+        height: 855px;
+        /*padding:64px auto 30px auto;*/
+        margin:0px auto 0 auto;
+        background-color: #4a90e2;
+    }
+    .section11 div.NativeIOSImage7{
+        margin: auto;
+        /*background-image: url("../Images/autoImage5.png");*/
+        content:url("../Images/NativeIOS/NativeIOSImage7.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 700px;
+        height: 648px;
+        padding-top: 120px;
+
+    }
+
+}
+
+
+.section12{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+
+#SAPEMRDetail{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section12{
+        margin: 200px auto 0 auto;
+        width: 620px;
+        height: 141px;
+    }
+    #SAPEMRDetail{
+        margin-top: 10px;
+    }
+}
+
+
+.section13{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 150px;
+    background-color: #e6e6e6;
+
+}
+
+.section13 div.NativeIOSImage8Div{
+
+    /*padding:64px auto 30px auto;*/
+    margin: 0px 20px 0 20px;
+    /*width: calc(100% - 40px);*/
+    height: 150px;
+    /*background-color: #e6e6e6;*/
+}
+.section13 div.NativeIOSImage8{
+    content:url("../Images/NativeIOS/NativeIOSImage8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*width: 100%;*/
+    height: 150px;
+    padding-top: 0;
+    margin: auto;
+
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section13{
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 855px;
+        background-color: unset;
+    }
+
+    .section13 div.NativeIOSImage8Div{
+        width: 1440px;
+        height: 855px;
+        /*padding:64px auto 30px auto;*/
+        margin:0px auto 0 auto;
+        background-color: #e6e6e6;
+    }
+    .section13 div.NativeIOSImage8{
+        margin: auto;
+        /*background-image: url("../Images/autoImage5.png");*/
+        content:url("../Images/NativeIOS/NativeIOSImage8.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1160px;
+        height: 546px;
+        padding-top: 209px;
+
+    }
+
+}
+
+
+.endSection13{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+#moreDetail{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .endSection13{
+        margin: 200px auto 0 auto;
+        width: 620px;
+        height: 193px;
+    }
+    #moreDetail{
+        margin-top: 10px;
+    }
+}
+
+#email{
+    color: #2368b8;
+}
+#email:hover{
+    border-bottom: solid 1px #2368b8;
+}
+
+
+
+
+
+.section14{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.section14 h4.header{
+    text-align: left;
+}
+
+.index-box-2 {
+
+    position: relative;
+    transition: top ease 0.5s;
+    border: 2px;
+    border-radius:10px;
+    margin: 20px 37px 0px 37px;
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    width: calc(100% - 74px);
+    height: 144px;
+    background-color: #ffffff;;
+}
+.index-box-2:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2 div.image{
+    width: 80px;
+    height:78px;
+    content:url("../Images/sdk.png");
+    /*background-image: url("../Images/sdk.png"); */
+    /*background-size: 100%;*/
+    padding-top:10px;
+    margin:0 auto
+}
+#resuable{
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+
+
+.index-box-2-1 {
+    position: relative;
+    transition: top ease 0.5s;
+    /*border: 2px;*/
+    border-radius: 10px;
+    margin: 10px 37px 0px 37px;
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    width: calc(100% - 74px);
+    height: 144px;
+    background-color: #ffffff;
+    padding-top: 14px;
+}
+.index-box-2-1:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2-1 div.image{
+    margin: 0 auto 0 auto;
+    width: 95px;
+    height:74px;
+    background-image:url("../Images/fiori.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#uiLib{
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+.index-box-2-2 {
+    position: relative;
+    transition: top ease 0.5s;
+    /*border: 2px;*/
+    border-radius: 10px;
+    margin: 10px 37px 0px 37px;
+    width: calc(100% - 74px);
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    height: 144px;
+    background-color: #ffffff;;
+}
+.index-box-2-2:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -6px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2-2 div.image{
+    width: 200px;
+    height:95px;
+    content:url("../Images/applesap.png");
+    margin:0 auto
+}
+#iosApp{
+    text-align: center;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+@media only screen and (min-width: 1020px){
+    .section14{
+        margin: 159px auto 0 auto;
+        width: 620px;
+        height: 275px;
+    }
+    .section11 h4.header{
+
+    }
+    @media only screen and (min-width: 1000px){
+        .clear{
+            height:208px;
+            /*width: calc(100% - 500);*/
+            width: 640px;
+            margin:40px auto 0px auto;
+
+        }
+
+        .index-box-2 {
+            margin: 0;
+            width: 300px;
+            /*width: calc(33% - 20px) !important;*/
+            height: 208px;
+            float: left;
+        }
+        .index-box-2 div.image{
+            width: 102px;
+            height:100px;
+            padding-top:25px;
+            margin:0 auto
+        }
+        #resuable{
+            padding-top:17px;
+            margin-bottom: 30px ;
+        }
+
+        .index-box-2-1 {
+            margin: 0px 0px 0px 40px;
+            /*width: calc(33% - 20px) !important;*/
+            width: 300px;
+            height: 208px;
+            float: left;
+            padding-top:0;
+        }
+
+        .index-box-2-1 div.image{
+            width: 114px;
+            height:89px;
+            padding-top:0;
+            margin:40px auto 0 auto;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+        #uiLib{
+            text-align: center;
+            padding-top:13px;
+            margin-bottom: 30px ;
+            color: #414141;
+        }
+        .index-box-2-2 {
+            margin:0 0 0 40px;
+            /*width: calc(34% - 20px) !important;*/
+            width: 300px;
+            height: 208px;
+            float: left;
+            background-color: #ffffff;
+            display: block;
+        }
+
+        .index-box-2-2 div.image{
+            width: 200px;
+            height:95px;
+            padding-top:32px;
+            margin:0 auto
+        }
+        #ignoredBr{
+            display: none;
+        }
+        #iosApp{
+            text-align: center;
+            padding-top:15px;
+            margin-bottom: 30px ;
+            color: #414141;
+        }
+    }
+}

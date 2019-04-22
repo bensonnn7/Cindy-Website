@@ -1,0 +1,130 @@
+
+
+
+
+footer {
+    width: 100%;
+    /*padding: 0 30px;*/
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    height: 128px;
+}
+.footer-sm{
+
+    width: calc(100% - 35%);
+    margin: 0 18% 0 18%;
+    height: 30px;
+}
+
+.footer-sm img.email{
+    display: inline;
+    width:31.5px;
+    height: 22.5px;
+    margin: 5px 40px 5px 0;
+}
+
+.footer-sm img.cv{
+    display: inline;
+    width:23px;
+    height: 30px;
+    margin: 0 38px 0 0;
+    padding-bottom: 2px;
+}
+.footer-sm img.linkin{
+    display: inline;
+    width:27px;
+    margin: 3px 39px 3px 0;
+}
+.footer-sm img.ig{
+    display: inline;
+    width:27px;
+    height: 27px;
+    margin: 3px 0;
+}
+.footer-text{
+    width: 100%;
+    margin-top: 20px;
+}
+#copyright{
+    text-align: center;
+    color: #1d1d1d
+}
+#developer{
+    text-align: center;
+    color: #646464
+}
+
+
+
+@media only screen and (min-width: 430px){
+    footer{
+        height: 128px;
+        padding: 0;
+        margin:160px 40px 0 40px;
+        width: calc(100% - 80px);
+    }
+    .footer-sm{
+        width: 240px;
+        /*float: left;*/
+        padding-left: 0;
+        padding-top: 25px;
+        margin: 0 auto;
+        /*padding-bottom: 105px;*/
+    }
+    .footer-text{
+        width: 260px;
+        /*float: left;*/
+        margin-top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #copyright{
+        width: 240px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #developer{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    footer{
+        height: 172px;
+        padding: 0;
+        width: 940px;
+        margin-top: 120px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-sm{
+
+        width: 50%;
+        float: left;
+        padding-left: 0;
+        padding-top: 43px;
+        /*padding-bottom: 105px;*/
+    }
+    .footer-sm div.emailDiv{
+        display: inline;
+        height: 31.5px;
+        width: 22.5px;
+    }
+    .footer-text{
+        width: 50%;
+        float: left;
+        margin-top: 40px;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    #copyright{
+        width: unset;
+        text-align: right;
+        margin: unset;
+    }
+    #developer{
+        text-align: right;
+    }
+}
+

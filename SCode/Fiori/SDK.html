@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/SDK.css">
+
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/text.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <script
+            src="//code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="../menu.js"></script>
+    <script src ="footer1.js"></script>
+    <title>6 Things I Learned From Designing SDK Components</title>
+</head>
+<body>
+
+<header>
+    <div id="navbarContainer">
+        <div class="navbar" id="navbar">
+            <a href="../Home.html" class="logo"></a>
+            <nav>
+                <a class="burger-nav"></a>
+                <ul>
+                    <li> <a href="../Home.html#fioriSection"> <div class="aboutDiv"><p class="Navigation">WORK</p></div></a></li>
+                    <li> <a href="../About.html"> <div class="aboutDiv"><p class="Navigation">ABOUT</p></div></a></li>
+                    <li title="coming soon"><a> <div class="aboutDiv"><p class="Navigation">BLOG</p></div></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <section class="section1">
+        <h5 class="intro"><a href="Overview.html" id="link1">SAP Fiori for iOS</a> </h5>
+        <h1 class="sixThingsHeader">6 Things I Learned From
+            Designing SDK Components</h1>
+        <p class="Body1" id="date">Mar 16, 2019</p>
+    </section>
+
+    <section class="section2">
+        <div class="sdkImage1"></div>
+    </section>
+
+    <section class="section3">
+        <h4 class="intro">What is an SDK?</h4>
+        <p class="Paragraph" id="sdkDetail">While our team is working on the design system, our other main task is to support the SDK team to develop reusable components. Designing for SDK components
+            adds another layer of complexity onto the already challenging enterprise scenarios. To provide some context, an SDK (Software Development Kit) is a set of development resource for
+            engineers to build products efficiently. The SAP Cloud Platform SDK for iOS is built on top of the iOS UIKit, which means product teams will be able to utilize these two frameworks simultaneously. It’s designed to be flexible enough to support use cases across a
+            wide range of industries such as project management, finance, clienteling, production management, sales, health care and more.</p>
+    </section>
+
+    <hr class="line">
+
+    <section class="section4">
+        <h4 class="header">Challenges</h4>
+        <p class="Paragraph" id="challengesDetail">The biggest challenge of designing SDK components for me was to create specifications that
+            would work well for every variant of the component I was working on. I worked closely with developers to understand technical constraints, as well as defining details such as
+            whether a text label would truncate or not. I realized it’s a matter of balancing flexibility and contraints in each component to ensure product teams can use
+            it within the best practices we defined, and are able to customize the component without a lot of extra effort. Despite of the challenges,
+            I found myself picking up a few critical concepts that were not taught in school and I would like to share them here:</p>
+        <div class="firstThing">
+            <h1 class="one">1</h1>
+            <h4 class="headerOne">Modularity—Provide flexibility by desinging a modular structure</h4>
+        </div>
+        <div class="detailDiv">
+            <p class="Paragraph" id="oneDetail1">The object header was the first component I ever designed and I learned so much from the process. I started by asking the question: what does a
+                header accomplish? By collecting relevant app examples, I found that object screens usually display the most
+                important or most frequently used information at the top most section, allowing users to grasp critical information quickly. </p>
+            <p class="Paragraph" id="oneDetail2">The next question I had to tackle was how can this component be flexible enough to fit a variety of use cases? I looked into the app examples by identifying
+                what type of content is usually included, and designed a structure based on modular blocks. The image below showcases how flexible the object header can be. The only manatory piece in this component is the main
+                info block, the rest of the pieces are designed to move based on screen size and availability of other blocks. </p>
+        </div>
+    </section>
+    <div class="sdkImage3Div">
+        <div class="sdkImage3"></div>
+    </div>
+
+    <div class="endSection4">
+        <p class="Paragraph" id="oneDetail3">The possibility of combination of modules is endless. Due to the versatility of this component, it has been widely used in different apps supporting a variety of scenarios.</p>
+    </div>
+
+    <div class="startSection5">
+        <div class="secondThing">
+            <h1 class="second">2</h1>
+            <h4 class="headerTwo">Priority—Providing constraints by setting max values for lower prioritized content</h4>
+        </div>
+        <p class="Paragraph" id="twoDetail1"> Providing constraints is as important as providing flexibility when designing components.
+            After designing the modular blocks of the object header, the problem was to define which block has the highest priority in terms
+            of what happens when content in a certain block is lengthy. </p>
+    </div>
+    <div class="sdkImage4Div">
+        <div class="sdkImage4"></div>
+    </div>
+
+    <div class="sdkImage5Div">
+        <div class="sdkImage5"></div>
+    </div>
+
+    <div class="endSection5">
+        <p class="Paragraph" id="twoDetail2">It’s common to believe that the main info block has the highest priority,
+            however I decided to prioritize the content blocks from right to left after many rounds of exploration. Since
+            the status block would most likely contain the least content, and  it is critical that it has enough space to display
+            messages that require the users’ attention, it should take first priority in the component as well as a maximum width.
+            The maximum width has been tested to fit at least two full words, and if the phrase exceeds the limit, it can wrap to multiple
+            lines without being unreadable. The middle section with second priority usually contains a chart or a paragraph. The maximum width
+            has been defined by the maximum width of the chart. Lastly, the left-most section utilizes the remaining space in the component but
+            is still able to display content in a readable width.</p>
+    </div>
+
+    <div class="startSection6">
+        <div class="thirdThing">
+            <h1 class="third">3</h1>
+            <h4 class="headerThird">Responsiveness—design a different layout for different screen sizes</h4>
+        </div>
+        <p class="Paragraph" id="thirdDetail1"> We have been continuously testing our components, making sure that they function
+            properly across all device sizes and device orientation. Sometimes a component requires a completly new layout or treatment
+            for it to adapt to a drastically different screen size. After receiving feedback from a few product teams, we decided to enhance
+            our text fields to make them more flexible. </p>
+    </div>
+
+    <div class="sdkImage6Div">
+        <div class="sdkImage6"></div>
+    </div>
+
+    <div class="endSection6">
+        <p class="Paragraph" id="thirdDetail2">The text field implemented initially has a stacked layout, with the key label on top and the value
+            label stacked below it. In compact width(iPhone), the stacked layout works fine as both labels have plenty of room to grow. While in regular
+            width(iPad), the stacked layout could become uncessary as horizontal space is abundant. Switching the text field to a single-line layout in
+            regular width saves valuable vertical space especially when the input value is short. The layout of the text field  is now configurable in
+            the SDK to accomodate more use cases. </p>
+    </div>
+
+    <div class="startSection7">
+        <div class="fourThing">
+            <h1 class="four">4</h1>
+            <h4 class="headerFour">Transition—Aim for a smooth and natural transition as the user interacts with the component</h4>
+        </div>
+        <p class="Paragraph" id="FourDetail1">Providing constraints is as important as providing flexibility when
+            designing components. After designing the modular blocks of the object header, the problem was to define
+            which block has the highest priority in terms of what happens when content in a certain block is lengthy.  </p>
+    </div>
+
+    <div class="sdkImage7Div">
+        <div class="sdkImage7"></div>
+    </div>
+
+
+    <div class="startSection8">
+        <div class="fiveThing">
+            <h1 class="five">5</h1>
+            <h4 class="headerFive">Accessibility—make sure content has plenty of space to grow</h4>
+        </div>
+        <p class="Paragraph" id="FiveDetail1">Accessibility has been an intriguing topic for me to discover as a designer.
+            I understand that accessibility covers a lot of different areas, but here I would like to focus on layout and dynamic type. </p>
+        <p class="Paragraph" id="FiveDetail2">The Fiori for iOS design system and the SDK use the standard font in iOS–San Francisco, and support
+            dynamic type, allowing users to adjust text size settings based on their preferences. We as a team investigated into best practices of
+            how componets should adapt to larger font size settings, and enhanced our components by designing layouts specifically for this purpose.</p>
+        <p class="Paragraph" id="FiveDetail3">Below are a few componets I defined with text settings ranging from default to AX5. The key takeaway for me was
+            to make sure text labels have enough space to grow by providing them with the full width of the screen. </p>
+    </div>
+
+    <div class="sdkImage8Div">
+        <div class="sdkImage8"></div>
+    </div>
+
+
+    <div class="startSection9">
+        <div class="sixThing">
+            <h1 class="six">6</h1>
+            <h4 class="headerSix">Validation—validate interactions with users to avoid designing based on assumptions</h4>
+        </div>
+        <p class="Paragraph" id="SixDetail1">Currently I’m working on an OCR business card scanning component with the help of a
+            user researcher. We have been gathering expectations from interviews and testing multiple prototypes. I was inspired by
+            the feedback we received and it changed my perspective on many assuptions I made earlier. I will be sharing more when this
+            component is released.</p>
+    </div>
+
+    <hr class="line1">
+
+    <div class="section10">
+        <h4 class="header">Some Thoughts</h4>
+        <p class="Paragraph" id="thoughts">Designing SDK components changed the way I design apps. The reason is because after going through the
+            process of considering every possibility of how a component would perform, I find myself becoming more mindful of how a design
+            element behaves under different situations. It has been a valuable experience for me to learn and grow by working with developers
+            to understand technical concepts. Seeing native apps built with the SDK brings me a great deal of fufillment.</p>
+    </div>
+
+    <div class="section11">
+        <h4 class="header">More on Fiori for iOS</h4>
+        <div class="clear">
+            <a href="Stencils.html">
+            <div class ='index-box-2-1' >
+                <div class="image"></div>
+                <div>
+                    <p id="uiLib"class="Body2">Reinventing Our Team's <br>Workflow</p>
+                </div>
+            </div>
+            </a>
+            <a href="Apps.html">
+            <div class ='index-box-2-2' title="coming soon">
+                <div class="image"></div>
+                <div>
+                    <p id = "iosApp" class="Body2">Building <br id="ignoredBr">Native iOS Apps</p>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+
+</main>
+
+
+
+<footer>
+    <div class="footer-sm">
+        <a href="mailto:cindydeng0612@gmail.com" target="_blank">
+            <img src='../Images/email.png' id= "emailIcon" onmouseover="newIcon()" onmouseout="oldIcon()" class="email"/>
+        </a>
+        <a href="Cindy Deng_CV2019.pdf" target="_blank">
+            <img src="../Images/cv1.png" id="cvIcon" onmouseover="newIcon1()" onmouseout="oldIcon1()" alt="" class="cv">
+        </a>
+        <a href="https://www.linkedin.com/in/cindydeng0612/" target="_blank">
+            <img src="../Images/linkin.png" id="linkInIcon" onmouseover="newIcon2()" onmouseout="oldIcon2()" alt="" class="linkin">
+        </a>
+        <a href="https://www.instagram.com/cindymoku/" target="_blank">
+            <img src="../Images/ig.png" id="igIcon" onmouseover="newIcon3()" onmouseout="oldIcon3()" alt="" class="ig">
+        </a>
+    </div>
+    <div class="footer-text">
+        <p class="caption" id="copyright">Cindy Deng © 2019 All Rights Reserved<br></p>
+        <p class="caption" id="developer">Developed by my best friend–Benson Guo</p>
+    </div>
+</footer>
+
+</body>
+</html>

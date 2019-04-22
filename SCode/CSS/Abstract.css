@@ -1,0 +1,936 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+/*mycode*/
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media only screen and (min-width: 1020px){
+    body{
+        overflow-x:unset;
+    }
+}
+*{
+    text-decoration: none ;
+}
+
+#link1{
+    color: #2368b8;
+}
+.section1{
+    width:100%;
+    margin: 100px auto 0 auto;
+}
+.section1 h5.intro{
+    color: #2368b8;
+    text-align: center;
+}
+.section1 h1.sixThingsHeader{
+    margin: 8px auto 0 auto;
+    text-align: center;
+}
+#date{
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+@media only screen and (min-width: 1020px){
+    .section1{
+        width: 100%;
+        height: 200px;
+        margin: 220px auto 0 auto;
+    }
+    .section1 h5.intro{
+
+    }
+    .section1 h1.sixThingsHeader{
+        width: 694px;
+    }
+    #date{
+
+    }
+}
+.section2{
+    margin-top: 60px;
+    width: 100%;
+}
+.section2 div.abstractImage1{
+    width: 100%;
+    height: 100px;
+    /*height need to be change later*/
+    background-image: url("../Images/Abstract/abstractImage1.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+
+}
+@media only screen and (min-width: 1020px){
+    .section2{
+        width: 1440px;
+        height: 390px;
+        margin: 60px auto 0 auto;
+    }
+    .section2 div.abstractImage1{
+        height: 390px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+.section3{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.section3 h4.intro{
+
+}
+#abstractDetail{
+    margin-top: 10px;
+}
+.section3 h4.FioriIntro{
+    margin-top: 50px;
+}
+#thirdAbstractDetail1{
+    margin-top: 10px;
+}
+
+.section3 div.abstractImage2{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    /*height need to be change later*/
+    background-image: url("../Images/Abstract/abstractImage2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1020px){
+    .section3{
+        margin: 80px auto 0 auto;
+        width: 620px;
+        height: 820px;
+    }
+    .section3 h4.intro{
+
+    }
+    #sdkDetail{
+        margin-top: 10px;
+    }
+    .section3 h4.FioriIntro{
+        margin-top: 80px;
+    }
+    #thirdAbstractDetail2{
+        margin-top: 40px;
+        height: 104px;
+    }
+    .section3 div.abstractImage2{
+        margin-top: 40px;
+        height: 419px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+hr.line{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+    position: center;
+    height: 0.5px;
+    background-color: #979797;
+    /*border: solid 0.5px*/
+}
+@media only screen and (min-width: 1020px){
+    hr.line{
+        margin: 120px auto 0 auto;
+        position: center;
+        width: 940px;
+        height: 0.3px;
+        background-color: #979797;
+    }
+}
+
+
+
+.section4{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.section4 h4.intro{
+
+}
+#fourAbstractDetail1{
+    margin-top: 10px;
+}
+.section4 h4.FioriIntro{
+    margin-top: 50px;
+}
+#thirdAbstractDetail1{
+    margin-top: 10px;
+}
+#fourAbstractDetail2{
+    margin-top: 30px;
+    /*height: 156px;*/
+}
+
+.section4 div.abstractImage3{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    /*height need to be change later*/
+    background-image: url("../Images/Abstract/abstractImage3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1020px){
+    .section4{
+        margin: 120px auto 0 auto;
+        width: 620px;
+        height: 700px;
+    }
+    .section4 h4.intro{
+
+    }
+    #fourAbstractDetail2{
+        margin-top: 80px;
+        height: 156px;
+    }
+    .section4 div.abstractImage3{
+        margin:40px auto 0 auto;
+        width: 560px;
+        height: 173px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+
+.abstractImage4Div{
+    width: 100%;
+    height: 250px;
+    /*background-color: #ffffff;*/
+}
+.abstractImage4Div div.abstractImage4{
+    width: 100%;
+    height: 250px;
+    background-image: url("../Images/Abstract/abstractImage4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (min-width: 1020px){
+    .abstractImage4Div{
+        width: 900px;
+        height: 525px;
+        margin: 55px auto 0 auto;
+    }
+    .abstractImage4Div div.abstractImage4{
+        margin: 0 auto;
+        height: 525px;
+        width: 900px;
+    }
+}
+
+
+.section5{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.section5 h4.intro{
+
+}
+.section5 h4.intro2{
+    margin-top: 100px;
+}
+#fourAbstractDetail1{
+    margin-top: 10px;
+}
+
+#fiveAbstractDetail1{
+    margin-top: 10px;
+}
+
+.section5 div.abstractImage5{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    /*height need to be change later*/
+    background-image: url("../Images/Abstract/abstractImage5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1020px){
+    .section5{
+        margin: 174px auto 0 auto;
+        width: 620px;
+        height: 970px;
+    }
+    .section5 h4.intro{
+
+    }
+    .section5 h4.intro2{
+        margin-top: 200px;
+    }
+    #fiveAbstractDetail2{
+        margin-top: 10px;
+        height: 156px;
+    }
+    .section5 div.abstractImage5{
+        margin:60px auto 0 auto;
+        width: 360px;
+        height: 220px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+
+.abstractImage6Div{
+    width: 100%;
+    height: 250px;
+    /*background-color: #ffffff;*/
+}
+.abstractImage6Div div.abstractImage6{
+    width: 100%;
+    height: 250px;
+    background-image: url("../Images/Abstract/abstractImage6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (min-width: 1020px){
+    .abstractImage6Div{
+        width: 900px;
+        height: 550px;
+        margin: 55px auto 0 auto;
+    }
+    .abstractImage6Div div.abstractImage6{
+        margin: 0 auto;
+        height: 525px;
+        width: 900px;
+    }
+}
+
+
+.endSection5{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+#fiveAbstractDetail3{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .endSection5{
+        margin: 60px auto 0 auto;
+        width: 620px;
+        height: 182px;
+    }
+    #fiveAbstractDetail3{
+        margin-top: 10px;
+    }
+}
+
+
+
+.section6{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.section6 h4.intro{
+
+}
+#fourAbstractDetail1{
+    margin-top: 10px;
+}
+.section6 h4.FioriIntro{
+    margin-top: 50px;
+}
+#sixAbstractDetail1{
+    margin-top: 10px;
+}
+#sixAbstractDetail2{
+    margin-top: 40px;
+    /*height: 156px;*/
+}
+
+.section6 div.abstractImage7{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    /*height need to be change later*/
+    background-image: url("../Images/Abstract/abstractImage7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1020px){
+    .section6{
+        margin: 120px auto 0 auto;
+        width: 620px;
+        height: 730px;
+    }
+    .section6 h4.intro{
+
+    }
+    #sixAbstractDetail2{
+        margin-top: 80px;
+        height: 156px;
+    }
+    .section6 div.abstractImage7{
+        margin:30px auto 0 auto;
+        width: 620px;
+        height: 220px;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100% 100%;
+    }
+}
+
+.abstractImage8Div{
+    width: 100%;
+    height: 250px;
+    /*background-color: #ffffff;*/
+}
+.abstractImage8Div div.abstractImage8{
+    width: 100%;
+    height: 250px;
+    background-image: url("../Images/Abstract/abstractImage8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (min-width: 1020px){
+    .abstractImage8Div{
+        width: 900px;
+        height: 550px;
+        margin: 55px auto 0 auto;
+    }
+    .abstractImage8Div div.abstractImage8{
+        margin: 0 auto;
+        height: 525px;
+        width: 900px;
+    }
+}
+
+.endSection6{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+#fiveAbstractDetail3{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .endSection6{
+        margin: 60px auto 0 auto;
+        width: 620px;
+        height: 130px;
+    }
+    #sixAbstractDetail3{
+        /*margin-top: 10px;*/
+    }
+}
+
+
+.section7{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.section7 h4.intro{
+
+}
+#sevenAbstractDetail1{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .section7{
+        margin: 120px auto 0 auto;
+        width: 620px;
+        height: 165px;
+    }
+    .section7 h4.intro{
+
+    }
+    #sevenAbstractDetail1{
+        margin-top: 10px;
+        height: 130px;
+    }
+
+}
+
+#stencilesLink{
+    color: #2368b8;
+}
+#stencilesLink:hover{
+    border-bottom: solid 1px #2368b8;
+}
+
+.abstractImage9Div{
+    width: 100%;
+    height: 250px;
+    /*background-color: #ffffff;*/
+}
+.abstractImage9Div div.abstractImage9{
+    width: 100%;
+    height: 250px;
+    background-image: url("../Images/Abstract/abstractImage9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (min-width: 1020px){
+    .abstractImage9Div{
+        width: 1360px;
+        height: 1570px;
+        margin: 30px auto 0 auto;
+    }
+    .abstractImage9Div div.abstractImage9{
+        margin: 0 auto;
+        height: 1570px;
+        width: 1360px;
+    }
+}
+
+
+.midSection7{
+    margin: 60px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+#sevenAbstractDetail2{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 1020px){
+    .midSection7{
+        margin: 60px auto 0 auto;
+        width: 620px;
+        height: 130px;
+    }
+    #sevenAbstractDetail2{
+        /*margin-top: 10px;*/
+    }
+}
+
+.abstractImage10Div{
+    width: 100%;
+    height: 250px;
+    margin: 30px auto 0 auto;
+    /*background-color: #ffffff;*/
+}
+.abstractImage10Div div.abstractImage10{
+    width: 100%;
+    height: 250px;
+    background-image: url("../Images/Abstract/abstractImage10.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (min-width: 1020px){
+    .abstractImage10Div{
+        width: 900px;
+        height: 550px;
+        margin: 30px auto 0 auto;
+    }
+    .abstractImage10Div div.abstractImage10{
+        margin: 0 auto;
+        height: 550px;
+        width: 900px;
+    }
+}
+
+.line1{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+    position: center;
+    height: 0.2px;
+    background-color: #979797;
+}
+@media only screen and (min-width: 1020px){
+    .line1{
+        margin: 120px auto 0 auto;
+        position: center;
+        width: 940px;
+        height: 0.2px;
+        background-color: #979797;
+    }
+}
+.line2{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+    position: center;
+    height: 0.1px;
+    background-color: #979797;
+}
+@media only screen and (min-width: 1020px){
+    .line2{
+        margin: 160px auto 0 auto;
+        position: center;
+        width: 940px;
+        height: 0.1px;
+        background-color: #979797;
+    }
+}
+
+
+.section8{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.section8 h4.header{
+    text-align: left;
+}
+#thoughts{
+    margin-top: 10px;
+}
+#thoughts1{
+    margin-top: 20px;
+}
+#thoughts2{
+    margin-top: 20px;
+}
+@media only screen and (min-width: 1020px){
+    .section8{
+        margin: 120px auto 0 auto;
+        width: 620px;
+        height: 350px;
+    }
+    .section8 h4.header{
+
+    }
+}
+
+
+.section11{
+    margin: 46px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.section11 h4.header{
+    text-align: left;
+}
+
+.index-box-2 {
+
+    position: relative;
+    transition: top ease 0.5s;
+    border: 2px;
+    border-radius:10px;
+    margin: 20px 37px 0px 37px;
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    width: calc(100% - 74px);
+    height: 144px;
+    background-color: #ffffff;;
+}
+.index-box-2:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2 div.image{
+    width: 80px;
+    height:78px;
+    content:url("../Images/sdk.png");
+    /*background-image: url("../Images/sdk.png"); */
+    /*background-size: 100%;*/
+    padding-top:10px;
+    margin:0 auto
+}
+#resuable{
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+
+
+.index-box-2-1 {
+    display: none;
+    position: relative;
+    transition: top ease 0.5s;
+    /*border: 2px;*/
+    border-radius: 10px;
+    margin: 10px 37px 0px 37px;
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    width: calc(100% - 74px);
+    height: 144px;
+    background-color: #ffffff;
+    padding-top: 14px;
+}
+.index-box-2-1:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2-1 div.image{
+    margin: 0 auto 0 auto;
+    width: 95px;
+    height:74px;
+    background-image:url("../Images/fiori.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#uiLib{
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+.index-box-2-2 {
+    position: relative;
+    transition: top ease 0.5s;
+    /*border: 2px;*/
+    border-radius: 10px;
+    margin: 10px 37px 0px 37px;
+    width: calc(100% - 74px);
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    height: 144px;
+    background-color: #ffffff;;
+}
+.index-box-2-2:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2-2 div.image{
+    width: 200px;
+    height:95px;
+    content:url("../Images/applesap.png");
+    margin:0 auto
+}
+#iosApp{
+    text-align: center;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+@media only screen and (min-width: 1020px){
+    .section11{
+        margin: 159px auto 0 auto;
+        width: 620px;
+        height: 275px;
+    }
+    .section11 h4.header{
+
+    }
+    @media only screen and (min-width: 1000px){
+        .clear{
+            height:208px;
+            /*width: calc(100% - 500);*/
+            width: 640px;
+            margin:40px auto 0px auto;
+
+        }
+
+        .index-box-2 {
+            margin: 0;
+            width: 300px;
+            /*width: calc(33% - 20px) !important;*/
+            height: 208px;
+            float: left;
+        }
+        .index-box-2 div.image{
+            width: 102px;
+            height:100px;
+            padding-top:25px;
+            margin:0 auto
+        }
+        #resuable{
+            padding-top:17px;
+            margin-bottom: 30px ;
+        }
+
+        .index-box-2-1 {
+            margin: 0px 0px 0px 0;
+            /*width: calc(33% - 20px) !important;*/
+            width: 300px;
+            height: 208px;
+            float: left;
+            padding-top:0;
+        }
+
+        .index-box-2-1 div.image{
+            width: 114px;
+            height:89px;
+            padding-top:0;
+            margin:40px auto 0 auto;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+        #uiLib{
+            text-align: center;
+            padding-top:13px;
+            margin-bottom: 30px ;
+            color: #414141;
+        }
+        .index-box-2-2 {
+            margin:0 0 0 40px;
+            /*width: calc(34% - 20px) !important;*/
+            width: 300px;
+            height: 208px;
+            float: left;
+            background-color: #ffffff;
+            display: block;
+        }
+
+        .index-box-2-2 div.image{
+            width: 200px;
+            height:95px;
+            padding-top:32px;
+            margin:0 auto
+        }
+        #ignoredBr{
+            display: none;
+        }
+        #iosApp{
+            text-align: center;
+            padding-top:15px;
+            margin-bottom: 30px ;
+            color: #414141;
+        }
+    }
+}

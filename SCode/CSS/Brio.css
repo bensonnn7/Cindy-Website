@@ -1,0 +1,1072 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*mycode*/
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media only screen and (min-width: 1000px){
+    body{
+        overflow-x:unset;
+    }
+}
+*{
+    text-decoration: none ;
+}
+
+
+
+hr.line1{
+    margin: 10px auto 0 auto;
+    position: center;
+    width: 50px;
+    height: 1px;
+    background-color: #9b9b9b;
+}
+
+
+.firstBrioSection {
+    width: 100%;
+    /*height: 482px;*/
+    margin-top: 50px;
+}
+.firstBrioSection div.BiroImageDiv{
+    display: none;
+}
+
+.firstBrioSection div.BrioRightDiv{
+    width: 100%;
+    margin: 0 8%;
+}
+.firstBrioSection div.BiroImage1{
+    display: none;
+ }
+.firstBrioSection h1.header{
+
+}
+.firstBrioSection h5.detail{
+
+}
+#time{
+    margin-top: 20px;
+}
+.firstBrioSection div.BiroImage1PhoneDiv{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    /*width: calc(100% - 40px);*/
+    height: 350px;
+}
+.firstBrioSection div.BiroImage1Phone{
+    /*margin-top: 20px;*/
+    /*margin: 20px auto 0 auto;*/
+    /*width: 100%;*/
+    height: 350px;
+    background-image: url("../Images/BiorImage/firstBiroImage1.png");
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    background-size:contain;
+    /*need to change later*/
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .firstBrioSection {
+        width: 970px;
+        height: 545px;
+        /*margin: 78px auto;*/
+        margin: 188px auto 0 auto;
+    }
+    .firstBrioSection div.BiroImageDiv{
+        display: block;
+        width: 552px;
+        height: 545px;
+        float: left;
+    }
+
+    .firstBrioSection div.BrioRightDiv{
+        margin: 0 0 0 48px;
+        width: 370px;
+        height: 545px;
+        float: left;
+    }
+    .firstBrioSection br.test{
+        display: none;
+    }
+    .firstBrioSection div.BiroImage1{
+        display: block;
+        width: 552px;
+        height: 545px;
+        background-image: url("../Images/BiorImage/firstBiroImage1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .firstBrioSection h1.header{
+        margin-top: 164px;
+        width: 84px;
+        height: 57px;
+
+        font-size: 44px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.2px;
+        color: #414141;
+    }
+    .firstBrioSection h5.detail{
+        width: 370px;
+        height: 24px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #414141;
+    }
+    #time{
+        margin-top: 30px;
+        /*width: 104px;*/
+        height: 22px;
+        color: #414141;
+    }
+    .firstBrioSection div.BiroImage1Phone{
+        display: none;
+    }
+}
+
+.secBrioSection{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.secBrioSection h3.overview{
+    margin-top: 10px;
+    text-align: center;
+}
+.secBrioSection div.detailDiv{
+    margin-top: 30px;
+}
+#overviewD1{
+
+}
+#overviewD2{
+    margin-top: 20px;
+}
+
+
+
+.secBrioSection hr.line2{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 100%;
+    height: 0.3px;
+    background-color: #979797
+}
+.secBrioSection hr.line2-1{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 100%;
+    height: 0.2px;
+    background-color: #979797
+}
+#labs{
+    color: #1d1d1d;
+}
+#system{
+    margin-top: 8px;
+    color: #1d1d1d;
+}
+#team{
+    margin-top: 11px;
+    color: #414141;
+    /*margin-bottom: 11px;*/
+}
+#duration{
+    margin-top: 11px;
+    color: #414141;
+}
+
+@media only screen and (min-width: 1000px){
+    .secBrioSection{
+        margin: 180px auto 0 auto;
+        height: 380px;
+        width: 940px;
+    }
+    .secBrioSection h3.overview{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .secBrioSection div.detailDiv{
+        float: left;
+        margin-top: 60px;
+        width: 460px;
+        height: 260px;
+    }
+    .secBrioSection div.rightOverDiv{
+        margin-top: 60px;
+        margin-left: 170px;
+        width: 310px;
+        height: 260px;
+        float: left;
+    }
+    #overviewD1{
+        width: 460px;
+        height: 160px;
+    }
+    #overviewD2{
+        margin-top: 0;
+        width: 460px;
+        height: 100px;
+    }
+}
+
+.thirdSection{
+    margin-top: 30px;
+    height: 319px;
+    width: 100%;
+}
+.thirdSection div.videoDiv{
+    margin: auto;
+}
+.thirdSection iframe.laptop{
+    display: none;
+}
+.thirdSection iframe.phone{
+    height: 319px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px){
+    .thirdSection{
+        margin: 30px auto 0 auto;
+        height: 519px;
+        width: 940px;
+    }
+    .thirdSection div.videoDiv{
+        margin: auto;
+    }
+    .thirdSection iframe.laptop{
+        display:block;
+        width:940px ;
+        height:519px;
+    }
+    .thirdSection iframe.phone{
+        display: none;
+    }
+}
+.fourthBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.fourthBrioSection h3.header{
+    margin-top: 10px;
+    text-align: center;
+}
+.fourthBrioSection div.detailDiv{
+    margin-top: 20px;
+}
+#ProblemsDetail1{
+
+}
+#ProblemsDetail2{
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1000px){
+    .fourthBrioSection{
+        margin: 106px auto 0 auto;
+        height: 395px;
+        width: 620px;
+    }
+    .fourthBrioSection h3.header{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .fourthBrioSection div.detailDiv{
+        margin-top: 30px;
+        width: 620px;
+        height: 312px;
+    }
+    #ProblemsDetail1{
+        width: 620px;
+        height: 100px;
+    }
+    #ProblemsDetail2{
+        margin-top: 30px;
+        width: 620px;
+        height: 212px;
+    }
+}
+
+.fifthBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.fifthBrioSection h4.header{
+}
+.fifthBrioSection div.BiroImage2Div{
+    width: 100%;
+    /*height: 120px;*/
+    margin-top: 20px;
+}
+.fifthBrioSection div.BiroImage2{
+    height: 120px;
+    /*width: 100%;*/
+    background-image: url("../Images/BiorImage/BiroImage2.png");
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    background-size:contain;
+}
+.fifthBrioSection div.BiroImage3Div{
+    margin-top: 30px;
+    width: 100%;
+}
+.fifthBrioSection div.BiroImage3{
+    height: 180px;
+    /*width: 100%;*/
+    background-image: url("../Images/BiorImage/BiroImage3.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#source{
+    margin-top: 10px;
+    color: #414141;
+}
+.fifthBrioSection h4.ThesisStatement{
+    margin-top: 40px;
+}
+#ThesisDetail{
+    margin-top: 10px;
+    color: #414141;
+}
+
+@media only screen and (min-width: 1000px){
+    .fifthBrioSection{
+        margin: 60px auto 0 auto;
+        height: 944px;
+        width: 620px;
+    }
+    .fifthBrioSection h4.header{
+        width: 63px;
+        height: 27px;
+    }
+    .fifthBrioSection div.BiroImage2Div{
+        margin: 31px auto 0 auto;
+        height: 193px;
+        width: 620px;
+    }
+    .fifthBrioSection div.BiroImage2{
+        height: 193px;
+        width: 570px;
+        background-image: url("../Images/BiorImage/BiroImage2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .fifthBrioSection div.BiroImage3Div{
+        margin: 60px auto 0 auto;
+        height: 322px;
+        width: 620px;
+    }
+    .fifthBrioSection div.BiroImage3{
+        height: 322px;
+        width: 557px;
+        background-image: url("../Images/BiorImage/BiroImage3.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #source{
+        margin-top: 40px;
+        width: 228px;
+        height: 18px;
+    }
+    .fifthBrioSection h4.ThesisStatement{
+        margin-top: 60px;
+        width: 189px;
+        height: 27px;
+    }
+    #ThesisDetail{
+        margin-top: 10px;
+        width: 620px;
+        height: 156px;
+    }
+}
+
+.sixBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.sixBrioSection h3.Research{
+    margin-top: 10px;
+    text-align: center;
+}
+.sixBrioSection div.detail1Div{
+    margin-top: 20px;
+}
+#ResearchDetail1{
+}
+.sixBrioSection div.detail2Div{
+    margin-top: 20px;
+}
+#detail2-1{
+}
+#detail2-2{
+}
+#detail2-3{
+}
+.sixBrioSection div.detail3Div{
+    margin-top: 20px;
+}
+#detail3-1{
+
+}
+#detail3-2{
+
+}
+#detail3-3{
+
+}
+#detail3-4{
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    .sixBrioSection{
+        margin: 160px auto 0 auto;
+        height: 469px;
+        width: 620px;
+    }
+    .sixBrioSection h3.Research{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .sixBrioSection div.detail1Div{
+        margin-top: 30px;
+        width: 620px;
+        height: 156px;
+    }
+    #ResearchDetail1{
+        width: 620px;
+        height: 156px;
+    }
+    .sixBrioSection div.detail2Div{
+        margin-top: 20px;
+        width: 620px;
+        height: 78px;
+    }
+    #detail2-1{
+        width: 620px;
+    }
+    #detail2-2{
+        width: 620px;
+    }
+    #detail2-3{
+        width: 620px;
+    }
+    .sixBrioSection div.detail3Div{
+        margin-top: 30px;
+        width: 620px;
+        height: 78px;
+    }
+    #detail3-1{
+        width: 620px;
+    }
+    #detail3-2{
+        width: 620px;
+    }
+    #detail3-3{
+        width: 620px;
+    }
+    #detail3-4{
+        width: 620px;
+    }
+}
+
+
+.sevenBrioSection{
+    margin-top: 20px;
+    height: 440px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.sevenBrioSection div.BiroImage45Div{
+    margin: auto;
+    height: 460px;
+    width: 100%;
+}
+.sevenBrioSection div.BiroImage4{
+
+    width: 100%;
+    height:220px;
+    background-image: url("../Images/BiorImage/BiroImage4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sevenBrioSection div.BiroImage5{
+    width: 100%;
+    height: 220px;
+    background-image: url("../Images/BiorImage/BiroImage5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .sevenBrioSection{
+        margin: 30px auto 0 auto;
+        height: 425px;
+        width: 100%;
+        background-color: #f5f5f5;
+    }
+    .sevenBrioSection div.BiroImage45Div{
+        margin: auto;
+        height: 425px;
+        width: 1440px;
+    }
+    .sevenBrioSection div.BiroImage4{
+        float: left;
+        height: 425px;
+        width: 720px;
+        background-image: url("../Images/BiorImage/BiroImage4.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .sevenBrioSection div.BiroImage5{
+        float: left;
+        height: 425px;
+        width: 720px;
+        background-image: url("../Images/BiorImage/BiroImage5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.eightBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+#sumDetail{
+
+}
+.eightBrioSection div.BiroImage6Div{
+    margin-top: 20px;
+
+}
+.eightBrioSection div.BiroImage6{
+    height: 140px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+   .eightBrioSection{
+       margin: 60px auto 0 auto;
+       height: 426px;
+       width: 620px;
+   }
+    #sumDetail{
+        width: 620px;
+        height: 156px;
+    }
+    .eightBrioSection div.BiroImage6Div{
+        margin-top: 30px;
+        height: 240px;
+        width: 620px;
+    }
+    .eightBrioSection div.BiroImage6{
+        height: 240px;
+        width: 620px;
+        background-image: url("../Images/BiorImage/BiroImage6.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.nineBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.nineBrioSection h3.Prototype{
+    margin-top: 10px;
+    text-align: center;
+}
+.nineBrioSection div.detail1Div{
+    margin-top: 20px;
+}
+#PrototypeDetail1{
+
+}
+
+@media only screen and (min-width: 1000px){
+    .nineBrioSection{
+        margin: 160px auto 0 auto;
+        height: 185px;
+        width: 620px;
+    }
+    .nineBrioSection h3.Prototype{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .nineBrioSection div.detail1Div{
+        margin-top: 30px;
+        width: 620px;
+        height: 104px;
+    }
+    #PrototypeDetail1{
+        width: 620px;
+        height: 104px;
+    }
+}
+
+.tenBrioSection{
+    margin: 30px auto 0 auto;
+    height: 240px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.tenBrioSection div.BiroImage7Div{
+    padding-top: 20px;
+}
+.tenBrioSection div.BiroImage7{
+    height: 200px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .tenBrioSection{
+        margin: 30px auto 0 auto;
+        height: 425px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .tenBrioSection div.BiroImage7Div{
+        padding-top: 60px;
+        margin: auto;
+        height: 293px;
+        width: 561px;
+    }
+    .tenBrioSection div.BiroImage7{
+        height: 293px;
+        width: 561px;
+        background-image: url("../Images/BiorImage/BiroImage7.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.elevenBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.elevenBrioSection h4.header{
+}
+#GreetingsDetail1{
+    margin-top: 10px;
+}
+.elevenBrioSection div.BiroImage8Div{
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage8.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .elevenBrioSection{
+        margin: 80px auto 0 auto;
+        height: 483px;
+        width: 620px;
+    }
+    .elevenBrioSection h4.header{
+        width: 303px;
+        height: 27px;
+        text-align: left;
+    }
+    #GreetingsDetail1{
+        margin-top: 10px;
+        width: 620px;
+        height: 78px;
+    }
+    .elevenBrioSection div.BiroImage8Div{
+        margin-top: 30px;
+        height: 338px;
+        width: 600px;
+        background-image: url("../Images/BiorImage/BiroImage8.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.twelveBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.twelveBrioSection h4.header{
+}
+#WearingDetail1{
+    margin-top: 10px;
+}
+.twelveBrioSection div.BiroImage9Div{
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage9.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .twelveBrioSection{
+        margin: 80px auto 0 auto;
+        height: 483px;
+        width: 620px;
+    }
+    .twelveBrioSection h4.header{
+        width: 303px;
+        height: 27px;
+        text-align: left;
+    }
+    #WearingDetail1{
+        width: 620px;
+        height: 78px;
+        margin-top: 10px;
+    }
+    .twelveBrioSection div.BiroImage9Div{
+        margin-top: 30px;
+        height: 338px;
+        width: 600px;
+        background-image: url("../Images/BiorImage/BiroImage9.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+
+.thirteenBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.thirteenBrioSection h4.header{
+
+}
+#MeasuringDetail1{
+    margin-top: 10px;
+}
+.thirteenBrioSection div.BiroImage10Div{
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage10.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .thirteenBrioSection{
+        margin: 80px auto 0 auto;
+        height: 483px;
+        width: 620px;
+    }
+    #MeasuringDetail1{
+        width: 620px;
+        height: 78px;
+        margin-top: 10px;
+    }
+    .thirteenBrioSection p.detail1{
+        margin-top: 10px;
+        width: 620px;
+        height: 78px;
+    }
+    .thirteenBrioSection div.BiroImage10Div{
+        margin-top: 30px;
+        height: 338px;
+        width: 620px;
+        background-image: url("../Images/BiorImage/BiroImage10.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.fourteenBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.fourteenBrioSection h4.header{
+}
+#TrackingDetail1{
+    margin-top: 10px;
+}
+.fourteenBrioSection div.BiroImage11Div{
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage13.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .fourteenBrioSection{
+        margin: 80px auto 0 auto;
+        height: 483px;
+        width: 620px;
+    }
+    .fourteenBrioSection h4.header{
+        width: 303px;
+        height: 27px;
+        text-align: left;
+    }
+    #TrackingDetail1{
+        margin-top: 10px;
+        width: 620px;
+        height: 52px;
+    }
+    .fourteenBrioSection div.BiroImage11Div{
+        margin-top: 30px;
+        height: 338px;
+        width: 620px;
+        background-image: url("../Images/BiorImage/BiroImage13.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.fifteenBrioSection{
+    margin: 40px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.fifteenBrioSection h4.header{
+
+}
+#SendingDetail1{
+    margin-top: 10px;
+
+}
+.fifteenBrioSection div.BiroImage12Div{
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-image: url("../Images/BiorImage/BiroImage11.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1000px){
+    .fifteenBrioSection{
+        margin: 80px auto 0 auto;
+        height: 483px;
+        width: 620px;
+    }
+    .fifteenBrioSection h4.header{
+        width: 303px;
+        height: 27px;
+        text-align: left;
+    }
+    #SendingDetail1{
+        margin-top: 10px;
+        width: 620px;
+        height: 78px;
+    }
+    .fifteenBrioSection div.BiroImage12Div{
+        margin-top: 30px;
+        height: 338px;
+        width: 620px;
+        background-image: url("../Images/BiorImage/BiroImage11.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.sixteenBrioSection{
+    margin: 70px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.sixteenBrioSection h3.header{
+    text-align: center;
+}
+.sixteenBrioSection div.detailDiv{
+    margin-top: 20px;
+}
+#NotesOverviewD1{
+}
+#NotesOverviewD2{
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .sixteenBrioSection{
+        margin: 180px auto 0 auto;
+        height: 263px;
+        width: 620px;
+    }
+    .sixteenBrioSection h3.header{
+        margin: 0 auto 0 auto;
+        width: 398px;
+        height: 38px;
+
+    }
+    .sixteenBrioSection div.detailDiv{
+        margin-top: 30px;
+        width: 620px;
+        height: 182px;
+    }
+    #NotesOverviewD1{
+        width: 620px;
+        height: 82px;
+    }
+    #download{
+        color: #2368b8;
+    }
+    #download:hover{
+        border-bottom: solid 1px #2368b8;
+    }
+    #NotesOverviewD2{
+        width: 620px;
+        height: 100px;
+    }
+}
+
+

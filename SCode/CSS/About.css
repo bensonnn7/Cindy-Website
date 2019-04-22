@@ -1,0 +1,557 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*code start here*/
+
+
+
+
+
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media only screen and (min-width: 1020px){
+    body{
+        overflow-x:unset;
+    }
+}
+*{
+    text-decoration: none ;
+}
+
+
+
+#about{
+    color: #1d1d1d;
+}
+.firstP{
+    margin: 46px 9% 0 9%;
+    width: calc(100% - 18%);
+    /*margin-top:  45px;*/
+    /*width: 100%;*/
+    /*height: 400px;*/
+}
+.firstP div.image1{
+    display: none;
+}
+.firstP div.intro{
+    /*margin-top:  45px;*/
+    /*margin-left: 33px;*/
+    /*margin-right: 33px;*/
+}
+.firstP h3.aboutme{
+}
+#aboutmeD{
+    display: block;
+    margin-top: 15px;
+}
+#aboutmeD-1{
+    margin-top: 15px;
+}
+#aboutmeD-2{
+    margin-top: 15px;
+}
+
+
+.image1-1{
+    background-image: url("../Images/About/dogonB2.png");
+    background-size: cover;
+    /*object-fit: cover;*/
+    background-repeat: no-repeat;
+    height: 383px;
+    /*width: 100% ;*/
+    margin-top:20px;
+}
+
+@media only screen and (min-width: 430px){
+    .firstPcontainer{
+        width: 100%;
+        /*height: unset;*/
+        margin:0 auto 0 auto;
+    }
+    .firstP{
+        width: 100%;
+        /*height: 649px;*/
+        margin: 0 auto;
+    }
+    .firstP div.image1{
+        display:block;
+        background-image: url("../Images/About/dogonB2Ipad.png");
+        background-size: cover;
+        background-position: center;
+        /*object-fit: contain;*/
+        background-repeat: no-repeat;
+        height: 479px;
+        width: 100%;
+
+    }
+    .firstP div.intro{
+        width: calc(100% - 80px);
+        margin: 40px 40px 0 40px;
+        /*height: 649px;*/
+        /*float: left;*/
+    }
+    .firstP h3.aboutme{
+        width: 100%
+    }
+    #aboutmeD{
+        /*width: 460px;*/
+        display: block;
+        margin-top: 15px;
+    }
+    #aboutmeD-1{
+        width: 100%;
+        margin-top: 15px;
+    }
+    #aboutmeD-2{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .image1-1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1020px){
+    .firstPcontainer{
+        width: 100%;
+        height: 649px;
+        margin:221px auto 0 auto;
+    }
+    .firstP{
+        width: 1440px;
+        height: 649px;
+        margin: 0 auto;
+    }
+    .firstP div.image1{
+        display:block;
+        background-image: url("../Images/About/dogonB2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 649px;
+        width: 709px;
+        float: left;
+    }
+    .firstP div.intro{
+        width: 45%;
+        height: 649px;
+        margin: 0 0 0 21px;
+        float: left;
+    }
+    .firstP h3.aboutme{
+      width: 460px
+    }
+    #aboutmeD{
+        width: 460px;
+        display: block;
+        margin-top: 15px;
+    }
+    #aboutmeD-1{
+        width: 460px;
+        margin-top: 15px;
+    }
+    #aboutmeD-2{
+        width: 460px;
+        margin-top: 15px;
+    }
+    .image1-1{
+        display: none;
+    }
+}
+
+
+.secondP{
+    margin: 60px 34px 0 34px;
+    /*height: 788px;*/
+    width: calc(100% - 68px);
+}
+.secondP div.shaBdiv{
+    width: 100%;
+}
+.shaBdiv h3.intro{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+#notDesigning{
+    margin-top: 15px;
+}
+#notDesigningD-1{
+    margin-top: 15px;
+}
+
+.secondP div.image1{
+    display: none;
+}
+.image2-2{
+    background-image: url("../Images/About/insImages.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+    /*width: 100% ;*/
+    margin-top:20px;
+}
+@media only screen and (min-width: 430px){
+    .secondP{
+        width: calc(100% - 80px);
+        margin: 80px 40px 0 40px;
+    }
+    .secondP div.shaBdiv {
+    }
+    .shaBdiv h3.intro {
+    }
+    .image2-2{
+        width: calc(100% - 80px);
+        margin: 80px 40px 0 40px;
+        background-image: url("../Images/About/insImagesIpad.png");
+        /*background-size: cover;*/
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 453px;
+        /*width: 100% ;*/
+        margin-top:20px;
+    }
+}
+@media only screen and (min-width: 760px){
+    .image2-2{
+        background-size: cover;
+    }
+}
+@media only screen and (min-width: 1020px) {
+    .secondPcontainer{
+        width: 100%;
+        height: 649px;
+        margin-top: 145px;
+    }
+    .secondP {
+        width: 1440px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    /*.secondP div*/
+    .secondP div.shaBdiv {
+        height: 450px;
+        float: left;
+        margin-left: 251px;
+        width: 369px;
+    }
+
+    .shaBdiv h3.intro {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+
+    #notDesigning {
+        width: 369px;
+        display: block;
+        margin-top: 15px;
+    }
+    #notDesigningD-1{
+        width: 369px;
+        margin-top: 15px;
+    }
+
+    .secondP div.image1 {
+        display: block;
+        margin-left: 111px;
+        width: 680px;
+        height: 450px;
+        float: left;
+        background: url("../Images/About/insImages.png");
+        background-size: 100% 100%;
+    }
+
+    .image2-2 {
+        display: none;
+    }
+}
+.line{
+    display: none;
+}
+.chat{
+    color: #414141;
+    width: calc(100% - 68px);
+    margin: 100px 34px 0 34px;
+}
+.chatD{
+    color: #1d1d1d;
+    width: calc(100% - 68px);
+    margin: 10px 34px 0 34px;
+
+}
+@media only screen and (min-width: 1020px){
+    .line{
+        display: block;
+        color: #979797;
+        width: 940px;
+        margin: 0 auto;
+    }
+    .chat{
+        color: #414141;
+        width: 940px;
+        margin: 100px auto 0 auto;
+        height: 57px;
+    }
+    .chatD{
+        width: 940px;
+        height: 92px;
+        margin: 20px auto 0 auto;
+        color: #1d1d1d;
+    }
+}
+.lastP{
+    height: 260px;
+}
+.lastP div.work{
+    float: none;
+}
+#worktext{
+    width: calc(100% - 72px);
+    margin: 90px 36px 0 36px;
+    color: #646464;
+}
+
+#resume{
+    width: calc(100% - 72px);
+    margin: 12px 36px 0 36px;
+    color: #2368b8;
+}
+
+.lastP div.email{
+    float: none;
+}
+#emailN{
+    width: calc(100% - 72px);
+    margin: 90px 36px 0 36px;
+    color: #646464;
+}
+.lastP hr.line1{
+    width: calc(100% - 72px);
+    margin: 9px 36px 0 36px;
+}
+#emailAdd{
+    width: calc(100% - 72px);
+    margin: 12px 36px 0 36px;
+    color: #2368b8;
+}
+@media only screen and (min-width: 430px){
+    .lastP{
+        width: calc(100% - 80px);
+        margin: 90px 40px 0 40px;
+        height: 150px;
+    }
+    .lastP div.work{
+        float: left;
+        width: 40%;
+    }
+    #worktext{
+        width: 100%;
+        margin: 77px auto 0 auto;
+        color: #646464
+    }
+    .lastP hr.line{
+        margin:10px auto 0 auto;
+        width: 100%;
+    }
+    #resume:hover{
+        /*width: 140px;*/
+        /*height: 2px;*/
+        border-bottom: solid 1px #2368b8;
+    }
+    #resume{
+        width: 140px;
+        margin: 13px auto 0 0;
+    }
+
+
+    .lastP div.email{
+        float: left;
+        margin-left: 10%;
+        width: 40%;
+    }
+    #emailN{
+        width: 370px;
+        margin: 77px auto 0 auto;
+        height: 18px;
+        color: #646464;
+    }
+    .lastP hr.line1{
+        margin:10px auto 0 auto;
+        width: 100%;
+    }
+    #emailAdd{
+        width: 205px;
+        padding-top:0;
+        padding-left: 0;
+        margin: 13px auto 0 0;
+        text-align: left;
+    }
+    #emailAdd:hover{
+        border-bottom: solid 1px #2368b8;
+    }
+}
+@media only screen and (min-width: 1020px){
+    .lastP{
+        width: 940px;
+        margin: 0 auto 0 auto;
+        height: 150px;
+    }
+    .lastP div.work{
+        float: left;
+    }
+    #worktext{
+        width: 370px;
+        margin: 77px auto 0 auto;
+        color: #646464
+    }
+    .lastP hr.line{
+        margin:10px auto 0 auto;
+        width: 370px;
+    }
+    #resume:hover{
+        /*width: 140px;*/
+        /*height: 2px;*/
+        border-bottom: solid 1px #2368b8;
+    }
+    #resume{
+        width: 140px;
+        margin: 13px auto 0 0;
+    }
+
+
+    .lastP div.email{
+        float: left;
+        margin-left: 110px;
+        width: 369px;
+    }
+    #emailN{
+        width: 370px;
+        margin: 77px auto 0 auto;
+        height: 18px;
+        color: #646464;
+    }
+    .lastP hr.line1{
+        margin:10px auto 0 auto;
+        width: 370px;
+    }
+    #emailAdd{
+        width: 205px;
+        padding-top:0;
+        padding-left: 0;
+        margin: 13px auto 0 0;
+        text-align: left;
+    }
+    #emailAdd:hover{
+        border-bottom: solid 1px #2368b8;
+    }
+}
+
+

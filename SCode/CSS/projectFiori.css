@@ -1,0 +1,1793 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+/*mycode*/
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media only screen and (min-width: 1000px){
+    body{
+        overflow-x:unset;
+    }
+}
+*{
+    text-decoration: none ;
+}
+
+
+hr.line1{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 50px;
+    height: 1px;
+    background-color: #9b9b9b;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    border: solid 2px #2368b8;
+    color: #2368b8;
+    padding: 15px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.button:hover{
+    background-color: #2368b8;
+    color: white;
+}
+
+.button1 {
+    display: none;
+}
+.button1:hover{
+    background-color: #1b508e;
+    color: white;
+}
+@media only screen and (min-width: 1000px){
+    .button1 {
+        /*margin-left: 30px;*/
+        background-color: #2368b8;
+        border-radius: 6px;
+        border: solid 2px #2368b8;
+        color: white;
+        padding: 15px 35px;
+        text-align: center;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+    }
+}
+
+
+
+.firstFio{
+    width: 100%;
+    height: 482px;
+    margin-top: 50px;
+}
+.firstFio div.fioImage{
+    display: none;
+}
+
+.firstFio div.fioD
+{
+    width: 100%;
+    margin: 0 8%;
+    height: 101px;
+    /*看看需不需要晚点改*/
+}
+
+.firstFio h1.introFio
+{
+    margin-left: 0;
+    margin-top: 0;
+    width: 209px;
+    height: 32px;
+}
+.firstFio h5.introFio2
+{
+    margin-top: 3px;
+    margin-left: 0;
+    width: 241px;
+    height: 24px;
+}
+#FioriDuration
+{
+    margin-top: 20px;
+    height: 22px;
+    color: #414141 ;
+}
+.firstFio div.fioImagePhone
+{
+    margin-top: 40px;
+    background-image: url("../Images/Fiori/fiori-top1.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 320px;
+    background-size: 100% 100%;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .firstFioCointer{
+        width:100%;
+        height: 593px;
+        margin: 110px auto 0 auto;
+    }
+    .firstFio{
+        width: 1440px;
+        height: 593px;
+        margin: 0 auto;
+    }
+    .firstFio div.fioImage
+    {
+        background-image: url("../Images/Fiori/fiori-top1.png");
+        background-repeat: no-repeat;
+        display: block;
+        width: 790px;
+        height: 593px;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .firstFio div.fioD
+    {
+        width: 45%;
+        height: 593px;
+        float: left;
+        margin: 0;
+    }
+    .firstFio h1.introFio
+    {
+        margin-left: 19px;
+        margin-top: 172px;
+        width: 328px;
+        height: 57px;
+
+    }
+    .firstFio h5.introFio2
+    {
+        margin-top: 0;
+        margin-left: 19px;
+        height: 24px;
+    }
+    #FioriDuration
+    {
+        margin-left: 19px;
+        margin-top: 30px;
+        height: 22px;
+    }
+    .firstFio div.fioImagePhone{
+        display: none;
+    }
+}
+
+
+.newOverview{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.newOverview h3.overview{
+    margin: 0 auto 0 auto;
+    padding-top: 0;
+    text-align: center;
+}
+
+.newOverview div.rightOverDiv{
+
+}
+.newOverview div.leftOverDiv{
+
+}
+
+#newOverviewD{
+    /*margin-top: 10px;*/
+
+}
+
+.newOverview hr.line2{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 100%;
+    height: 0.3px;
+    background-color: #979797
+}
+.newOverview hr.line2-1{
+    margin: 12px auto 0 auto;
+    position: center;
+    width: 100%;
+    height: 0.2px;
+    background-color: #979797
+}
+#labs{
+    color: #1d1d1d;
+}
+#system{
+    margin-top: 8px;
+    color: #1d1d1d;
+}
+#team{
+    margin-top: 11px;
+    color: #414141;
+    /*margin-bottom: 11px;*/
+}
+#duration{
+    margin-top: 11px;
+    color: #414141;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .newOverview{
+        margin: 140px auto 0 auto;
+        height: 270px;
+        width: 940px;
+    }
+    .newOverview h3.overview{
+        margin: 0 auto 0 auto;
+        /*padding-top: 140px;*/
+        width: 398px;
+        height: 38px;
+    }
+    .newOverview hr.line1{
+        margin: 12px auto 0 auto;
+        position: center;
+        width: 50px;
+        height: 1px;
+        background-color: #9b9b9b;
+    }
+    .newOverview div.leftOverDiv{
+        margin-top: 60px;
+        width: 460px;
+        height: 156px;
+        float: left;
+    }
+    .newOverview div.rightOverDiv{
+        margin-top: 60px;
+        margin-left: 170px;
+        width: 310px;
+        height: 156px;
+        float: left;
+    }
+    #newOverviewD{
+        /*margin-top: 30px;*/
+        width: 460px;
+        height: 156px;
+        /*float: left;*/
+    }
+}
+
+
+
+
+
+.secFio{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.secFio h3.overview{
+    margin: 0 auto 0 auto;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+.secFio h3.process{
+    margin: 40px auto 0 auto;
+    width: 97px;
+    height: 26px;
+    text-align: center;
+}
+
+.secFio div.processDiv{
+    margin-top: 10px;
+    /*width: 620px;*/
+    height: auto;
+}
+
+#processD2{
+    margin-top: 20px;
+}
+#processD3{
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1000px){
+    .secFio{
+        margin: 0 auto 0 auto;
+        height: 340px;
+        width: 620px;
+    }
+    .secFio h3.overview{
+        margin: 0 auto 0 auto;
+        padding-top: 140px;
+        width: 398px;
+        height: 38px;
+    }
+    .secFio hr.line1{
+        margin: 12px auto 0 auto;
+        position: center;
+        width: 50px;
+        height: 1px;
+        background-color: #9b9b9b;
+    }
+    .secFio h3.process{
+        margin: 120px auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    .secFio div.processDiv{
+        margin-top: 30px;
+        width: 620px;
+        height: 260px;
+    }
+    #processD2{
+        margin-top: 20px;
+    }
+    #processD3{
+        margin-top: 20px;
+    }
+}
+
+.processImageSec{
+    margin-top: 10px;
+    width: 100%;
+    height: 129px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position:relative;
+}
+
+.processImage{
+    padding-top: 23px;
+    margin: 0 20px 0 20px;
+    width: calc(100% - 40px);
+    height: 89px;
+    /*background-image: url("../Images/processImage.png");*/
+    content:url("../Images/Fiori/processImage.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .processImageSec{
+        margin-top: 0;
+        width: 100%;
+        height: 280px;
+        background-color: rgba(255, 255, 255, 0.75);
+        position:relative;
+    }
+    .processImageDiv{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 620px;
+        height: 280px;
+    }
+    .processImage{
+        margin: 30px;
+        padding-top: 50px;
+        height: 180px;
+        /*background-image: url("../Images/processImage.png");*/
+        content:url("../Images/Fiori/processImage.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.designSystem{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+.designSystem h3.overview{
+    margin: 0 auto 0 auto;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+.designSystem h3.designSystemHeader{
+    margin: 40px auto 0 auto;
+    width: 97px;
+    height: 26px;
+    text-align: center;
+}
+
+.designSystem div.designImage{
+    margin-top: 30px;
+    width: 100%;
+    height: 290px;
+    background-image: url("../Images/Fiori/designImage1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#designD1{
+    margin-top: 80px;
+}
+.designSystem div.numDIV{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+}
+.designSystem h2.componentsNum{
+    float: left;
+    width: 120px;
+    height: 46px;
+}
+.designSystem h2.patterNum{
+    margin-left: 80px;
+    float: left;
+    width: 70px;
+    height: 46px;
+}
+
+.designSystem div.wordDIV{
+    margin-top: 6px;
+    height: 20px;
+    width: 100%;
+}
+#componentsWord{
+    float: left;
+    width: 120px;
+    height: 20px;
+    color: #414141;
+}
+#patterWord{
+    margin-left: 80px;
+    float: left;
+    width: 70px;
+    height: 20px;
+    color: #414141;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    .designSystem{
+        margin: 0 auto 0 auto;
+        height: 850px;
+        width: 620px;
+    }
+    .designSystem h3.overview{
+        margin: 0 auto 0 auto;
+        padding-top: 140px;
+        width: 398px;
+        height: 38px;
+    }
+    .designSystem hr.line1{
+        margin: 12px auto 0 auto;
+        position: center;
+        width: 50px;
+        height: 1px;
+        background-color: #9b9b9b;
+    }
+    .designSystem h3.designSystemHeader{
+        margin: 220px auto 0 auto;
+        width: 398px;
+        height: 38px;
+    }
+    #designD{
+        margin-top: 30px;
+        width:620px;
+        height: 130px;
+    }
+    .designSystem div.designImage{
+        margin-top: 30px;
+        width: 620px;
+        height: 290px;
+        background-image: url("../Images/Fiori/designImage1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #designD1{
+        margin-top: 160px;
+        width: 100%;
+        height: 55px;
+    }
+}
+
+
+
+
+
+
+.pictureDiv{
+    margin: 46px 20px 0 20px;
+    /*height: 788px;*/
+    width: calc(100% - 40px);
+}
+
+
+@media only screen and (min-width: 1000px){
+    .pictureDiv{
+        margin: 80px auto 0 auto;
+        height: 3300px;
+        width: 1120px;
+    }
+    .pictureDiv div.pic1{
+        height: 505px;
+        width: 1120px;
+        background-image: url("../Images/Fiori/pic1.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .pictureDiv div.pic2{
+        margin-top: 40px;
+        height: 705px;
+        width: 1120px;
+        background-image: url("../Images/Fiori/pic2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .pictureDiv div.pic3{
+        margin-top: 40px;
+        height: 290px;
+        width: 1120px;
+        background-image: url("../Images/Fiori/pic3.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .pictureDiv div.pic4{
+        margin-top: 40px;
+        height: 575px;
+        width: 1120px;
+        background-image: url("../Images/Fiori/pic4.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .pictureDiv div.pic5{
+        margin-top: 40px;
+        height: 1065px;
+        width: 1120px;
+        background-image: url("../Images/Fiori/pic5.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+#more{
+    margin-top: 30px;
+    text-align: center;
+    color: #646464;
+}
+
+
+
+
+
+
+
+
+.thiFio{
+    margin: 40px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.thiFio h3.deliverable{
+    margin: 0 auto 0 auto;
+    padding-top: 0;
+    width: 129px;
+    height: 26px;
+    text-align: center;
+}
+
+#deliverableD{
+    margin-top: 10px;
+}
+.thiFio h4.cloudPlatform{
+    margin-top: 30px;
+}
+#cloudPlatformD{
+    margin-top: 3px;
+}
+.thiFio div.appAtotal{
+    display: none;
+}
+#AppBuildWithSDK{
+    display: none;
+}
+
+#totalEndUsers{
+    display: none;
+}
+.thiFio div.nums{
+    display: none;
+}
+.thiFio h2.appnm{
+    display: none;
+}
+
+.thiFio h2.userNum{
+    display: none;
+}
+#AppBuildWithSDKmobile{
+    margin-top: 20px;
+    color: #646464;
+}
+.thiFio h2.appnmMobile{
+    margin-top: 8px;
+    color: #1d1d1d;
+}
+#totalEndUsersmobile{
+    margin-top: 20px;
+    color: #646464;
+}
+.thiFio h2.userNumMobile{
+    margin-top: 8px;
+    color: #1d1d1d;
+}
+#date{
+    margin-top: 10px;
+    color: #414141 ;
+}
+.thiFio div.buttonDiv{
+    display: none;
+    width: 160px;
+    height: 48px;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thiFio a.button{
+    /*padding: 15px 40px;*/
+    margin: auto;
+    width: 100%;
+    /*height: 18px;*/
+    /*border-radius: 6px;*/
+    /*border: solid 2px #2368b8;*/
+    /*font-family: 'Rubik', sans-serif;*/
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #2368b8;
+}
+
+@media only screen and (min-width: 1000px){
+    .thiFio{
+        margin: 0 auto 0 auto;
+        height: 790px;
+        width: 620px;
+    }
+    .thiFio h3.deliverable{
+        margin: 0 auto 0 auto;
+        padding-top: 200px;
+        width: 398px;
+        height: 38px;
+    }
+    .thiFio hr.line3{
+        margin: 12px auto 0 auto;
+        position: center;
+        width: 50px;
+        height: 1px;
+        background-color: #9b9b9b;
+    }
+    #deliverableD{
+        margin-top: 30px;
+        width: 620px;
+        height: 130px;
+    }
+    .thiFio h4.cloudPlatform{
+        margin-top: 80px;
+        width: 335px;
+        height: 27px;
+    }
+    #cloudPlatformD{
+        margin-top: 10px;
+        width: 620px;
+        height: 130px;
+    }
+    #AppBuildWithSDKmobile{
+        display: none;
+    }
+    .thiFio h2.appnmMobile{
+        display: none;
+    }
+
+    #totalEndUsersmobile{
+        display: none;
+    }
+    .thiFio h2.userNumMobile{
+        display: none;
+    }
+    .thiFio div.appAtotal{
+        display: block;
+        width: 100%;
+        height: 18px;
+        margin-top: 30px;
+    }
+    #AppBuildWithSDK{
+        /*width: 166px;*/
+        display:block;
+        height: 18px;
+        float: left;
+    }
+    #totalEndUsers{
+        display: block;
+        margin-left: 91px;
+        height: 18px;
+        float: left;
+        /*clear: right;*/
+    }
+    .thiFio div.nums{
+        display: block;
+        width: 100%;
+        height: 46px;
+        margin-top: 8px;
+    }
+    .thiFio h2.appnm{
+        display: block;
+        width: 78px;
+        height: 46px;
+        color: #1d1d1d;
+        float: left;
+    }
+    .thiFio h2.userNum{
+        display: block;
+        margin-left: 187px;
+        width: 125px;
+        height: 46px;
+        color: #1d1d1d;
+        float: left;
+    }
+    #date{
+        margin-top: 12px;
+        width: 463px;
+        height: 18px;
+        color: #414141 ;
+    }
+    .thiFio div.buttonDiv{
+        width: 160px;
+        height: 48px;
+        margin-top: 40px;
+        margin-left: unset;
+        margin-right: unset;
+
+    }
+    .thiFio a.button{
+        /*padding: 15px 40px;*/
+        /*width: 80px;*/
+        /*height: 18px;*/
+        /*border-radius: 6px;*/
+        /*border: solid 2px #2368b8;*/
+
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: #2368b8;
+    }
+}
+.deliverableImageDiv{
+    margin-top: 30px;
+    width: 100%;
+    height: 453px;
+}
+.deliverableImage{
+    margin: auto;
+    height: 453px;
+    width:100%;
+    background-image: url("../Images/Fiori/deliverableImageMobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1000px){
+    .deliverableImageDiv{
+        margin-top: 40px;
+        width: 100%;
+        height: 720px;
+    }
+    .deliverableImage{
+        margin: auto;
+        height: 720px;
+        /*width: 1440px;*/
+        width:940px;
+        background-image: url("../Images/Fiori/deliverableImage.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+#downloadapp{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#applink{
+    color: #2368b8;
+}
+#applink:hover{
+    border-bottom: solid 1px #2368b8;
+}
+
+.fouFio{
+    margin: 60px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.fouFio div.guideline{
+    margin-left: 0;
+    /*height: 612px;*/
+    /*width: 400px;*/
+}
+.fouFio h4.header{
+
+}
+#guildlineD{
+    margin-top: 4px;
+}
+#article{
+    margin-top: 20px;
+    color: #646464;
+}
+.fouFio div h5:hover{
+    margin-top: 2px;
+    border-bottom: 2px solid #2368b8;
+}
+.fouFio div.objectDiv{
+    margin-top: 12px;
+    /*width: 133px;*/
+    /*height: 24px;*/
+}
+#objectLink{
+    color: #2368b8;
+    font-size: 15px;
+}
+
+.fouFio div.ProfileDiv{
+    margin-top: 16px;
+    /*width: 133px;*/
+    /*height: 24px;*/
+}
+#ProfileLink{
+    font-size: 15px;
+    color: #2368b8;
+}
+.fouFio div.OCRDiv{
+    margin-top: 18px;
+    /*width: 133px;*/
+    /*height: 24px;*/
+}
+#OCRLink{
+    font-size: 15px;
+    color: #2368b8;
+}
+.fouFio div.OverviewDiv{
+    margin-top: 18px;
+    /*width: 133px;*/
+    /*height: 24px;*/
+}
+#OverviewLink{
+    /* width: 133px;
+    height: 24px; */
+    font-size: 15px;
+    color: #2368b8;
+}
+.fouFio div.guideLineImageDiv{
+    display: none;
+}
+.fouFio div.guideLineImage{
+    display: none;
+}
+.guideLineImageDivMobile{
+    width: 95.5%;
+    height: 317px;
+    margin-left: 4.5%;
+    margin-top: 30px;
+}
+.guideLineImageMobile{
+    width: 100%;
+    height: 317px;
+    background-image: url("../Images/Fiori/firGuideineImage.png");
+    /*content:url("../Images/processImage.png");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1000px){
+    .fouFio{
+        width: 1440px;
+        height: 612px;
+        margin:174px auto 0 auto;
+    }
+    .fouFio div.guideline{
+        margin-left: 250px;
+        height: 612px;
+        width: 400px;
+        float: left;
+    }
+    .fouFio h4.header{
+        width: 318px;
+        height: 27px;
+    }
+    #guildlineD{
+        margin-top: 10px;
+        width: 400px;
+        height: 208px;
+    }
+    #article{
+        margin-top: 80px;
+        width: 248px;
+        height: 18px;
+        color: #646464;
+    }
+    .fouFio div.objectDiv{
+        margin-top: 20px;
+        width: 133px;
+        height: 24px;
+    }
+    #objectLink{
+        width: 133px;
+        height: 24px;
+        color: #2368b8;
+        font-size: 20px;
+        /* border-bottom: solid 2px #2368b8;
+        padding-bottom: 2px; */
+    }
+    .fouFio div.ProfileDiv{
+        margin-top: 18px;
+        width: 133px;
+        height: 24px;
+    }
+    #ProfileLink{
+        width: 131px;
+        height: 24px;
+        color: #2368b8;
+        font-size: 20px;
+    }
+    .fouFio div.OCRDiv{
+        margin-top: 18px;
+        width: 133px;
+        height: 24px;
+    }
+    #OCRLink{
+        width: 123px;
+        height: 24px;
+        font-size: 20px;
+        color: #2368b8;
+    }
+    .fouFio div.OverviewDiv{
+        margin-top: 18px;
+        width: 133px;
+        height: 24px;
+    }
+    #OverviewLink{
+        width: 87px;
+        height: 24px;
+        font-size: 20px;
+        color: #2368b8;
+
+    }
+    .fouFio div.guideLineImageDiv{
+        display: block;
+        width: 710px;
+        height: 612px;
+        margin-left: 80px;
+        float: left;
+        margin-top: 0;
+    }
+    .fouFio div.guideLineImage{
+        display: block;
+        width: 100%;
+        height: 612px;
+        background-image: url("../Images/Fiori/firGuideineImage.png");
+        /*content:url("../Images/processImage.png");*/
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .guideLineImageDivMobile{
+        display: none;
+    }
+    .guideLineImageMobile{
+        display: none;
+    }
+}
+
+
+.fivFio{
+    margin: 60px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.fivFio div.uiLibImageDiv{
+    display: none;
+}
+.fivFio div.uilibImage{
+    display: none;
+}
+.fivFio div.uilibDiv{
+
+}
+.fivFio h4.header{
+
+}
+#uiLibD{
+    margin-top: 4px;
+}
+
+.fivFio div.uiLibButtonDiv{
+    width: 160px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.fivFio a.uibutton1{*/
+    /*padding: 15px 40px;*/
+    /*width: 180px;*/
+    /*height: 18px;*/
+    /*border-radius: 6px;*/
+    /*border: solid 2px #2368b8;*/
+    /*font-family: 'Rubik', sans-serif;*/
+    /*font-size: 15px;*/
+    /*font-weight: 500;*/
+    /*font-style: normal;*/
+    /*font-stretch: normal;*/
+    /*line-height: normal;*/
+    /*letter-spacing: 0.4px;*/
+    /*text-align: center;*/
+    /*color: #2368b8;*/
+/*}*/
+/*.fivFio a.uibutton2{*/
+    /*display: none;*/
+/*}*/
+.fivFio.button{
+
+    padding: 0 auto;
+}
+.fivFio a.button1{
+    display: none;
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .fivFio{
+        width: 1440px;
+        height: 621px;
+        margin: 200px auto 0 auto;
+    }
+    .fivFio div.uiLibImageDiv{
+        display: block;
+        width: 710px;
+        height: 621px;
+        float: left;
+    }
+    .fivFio div.uilibImage{
+        display: block;
+        width: 710px;
+        height: 621px;
+        background-image: url("../Images/Fiori/uiLibImage.png");
+        /*content:url("../Images/processImage.png");*/
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fivFio div.uilibDiv{
+        margin-left: 100px;
+        height: 621px;
+        width: 380px;
+        float: left;
+    }
+    .fivFio h4.header{
+        width: 291px;
+        height: 27px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #414141;
+    }
+    #uiLibD{
+        margin-top: 10px;
+        width: 380px;
+        height: 208px;
+        color: #414141;
+    }
+    .fivFio div.uiLibButtonDiv{
+        margin-top: 40px;
+        width: 380px;
+        height: 48px;
+    }
+    /*.fivFio a.uibutton1{*/
+        /*float: left;*/
+        /*padding: 15px 40px;*/
+        /*!*width: 160px;*!*/
+        /*!*height: 48px;*!*/
+        /*border-radius: 6px;*/
+        /*border: solid 2px #2368b8;*/
+        /*font-family: 'Rubik', sans-serif;*/
+        /*font-size: 15px;*/
+        /*font-weight: 500;*/
+        /*font-style: normal;*/
+        /*font-stretch: normal;*/
+        /*line-height: normal;*/
+        /*letter-spacing: 0.4px;*/
+        /*text-align: center;*/
+        /*color: #2368b8;*/
+        /*width: 80px;*/
+        /*height: 18px;*/
+    /*}*/
+    /*.fivFio a.uibutton2{*/
+        /*margin-left: 30px;*/
+        /*float: left;*/
+        /*padding: 15px 40px;*/
+        /*border-radius: 6px;*/
+        /*border: solid 2px #2368b8;*/
+        /*font-family: 'Rubik', sans-serif;*/
+        /*background-color: #2368b8;*/
+        /*font-size: 15px;*/
+        /*font-weight: 500;*/
+        /*font-style: normal;*/
+        /*font-stretch: normal;*/
+        /*line-height: normal;*/
+        /*letter-spacing: 0.4px;*/
+        /*text-align: center;*/
+        /*color: #ffffff;*/
+        /*width: 80px;*/
+        /*height: 18px;*/
+    /*}*/
+}
+.uiLibImageDivMobile{
+    width: 95.5%;
+    height: 389px;
+    margin-left: 4.5%;
+    margin-top: 30px;
+}
+.uilibImageMobile{
+    width: 355px;
+    height: 389px;
+    background-image: url("../Images/Fiori/uilibImageMobile.png");
+    /*content:url("../Images/processImage.png");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sixFio{
+    margin: 60px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.sixFio div.nativeDiv{
+
+}
+.sixFio h4.nativeHeader{
+
+}
+
+#nativeD1{
+    margin-top: 10px;
+}
+#nativeD2{
+    margin-top: 20px;
+}
+#nativeD3{
+    margin-top: 20px;
+}
+
+#appSupport{
+
+    margin-top: 30px;
+    font-size: 13px;
+}
+.sixFio div.num{
+    display: none;
+}
+.sixFio h2.num1{
+    display: none;
+}
+.sixFio h2.num2{
+    display: none;
+}
+.sixFio div.numText{
+    display: none;
+}
+#num1Text{
+    display: none;
+}
+#num2Text{
+    display: none;
+}
+.sixFio h2.num1Mobile{
+    margin-top: 10px;
+    color: #1d1d1d;
+}
+#num1TextMobile{
+    margin-top: 8px;
+    color: #414141;
+}
+.sixFio h2.num2Mobile{
+    margin-top: 20px;
+    color: #1d1d1d;
+}
+
+#num2TextMobile{
+    margin-top: 8px;
+    color: #414141;
+}
+
+.sixFio div.buttonDiv{
+    width: 160px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sixFio a.button{
+    padding: 15px 40px;
+    width: 80px;
+    height: 18px;
+    border-radius: 6px;
+    border: solid 2px #2368b8;
+    /*font-family: 'Rubik', sans-serif;*/
+    /*font-size: 15px;*/
+    /*font-weight: 500;*/
+    /*font-style: normal;*/
+    /*font-stretch: normal;*/
+    /*line-height: normal;*/
+    /*letter-spacing: 0.4px;*/
+    /*text-align: center;*/
+    color: #2368b8;
+}
+.nativeImageDiv{
+    width: 100%;
+    height: 372px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.75);;
+}
+.nativeImage{
+    margin: 0;
+    width: 100%;
+    height: 372px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+    url: url("../Images/Fiori/nativeImage.png");
+}
+
+@media only screen and (min-width: 1000px) {
+    .uiLibImageDivMobile{
+        display: none;
+    }
+    .uilibImageMobile{
+        display: none;
+    }
+    .sixFio{
+        width: 925px;
+        height: 495px;
+        margin-top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sixFio div.nativeDiv{
+        float: left;
+        height: 495px;
+        width: 435px;
+    }
+    .sixFio div.nativeHeader{
+        width: 207px;
+        height: 27px;
+        color: #414141;
+    }
+    .sixFio p{
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        color: #414141;
+    }
+    #nativeD1{
+        margin-top: 10px;
+    }
+    #nativeD2{
+        margin-top: 20px;
+    }
+    #nativeD3{
+        margin-top: 20px;
+    }
+    .sixFio div.rightNativeDiv{
+        float: left;
+        margin-left: 125px;
+        height: 495px;
+        width: 365px;
+    }
+    #appSupport{
+        margin-top: 37px;
+        height: 18px;
+        color: #414141 ;
+    }
+    .sixFio div.num{
+        display: block;
+        width: 100%;
+        height: 46px;
+        margin-top: 28px;
+    }
+    .sixFio h2.num1{
+        display: block;
+        float: left;
+        width: 20px;
+        height: 46px;
+        color: #1d1d1d;
+    }
+    .sixFio h2.num2{
+        display: block;
+        margin-left: 181px;
+        float: left;
+        width: 20px;
+        height: 46px;
+        color: #1d1d1d;
+    }
+    .sixFio div.numText{
+        display: block;
+        margin-top: 6px;
+        width: 100%;
+        height: 18px;
+    }
+    #num1Text{
+        display: block;
+        float: left;
+        width: 130px;
+        height: 18px;
+        color:#414141;
+    }
+    #num2Text{
+        display: block;
+        float: left;
+        margin-left: 70px;
+        /* width: 164px; */
+        height: 18px;
+        color:#414141;
+    }
+    .sixFio h2.num1Mobile{
+        display:none;
+    }
+    #num1TextMobile{
+        display:none;
+    }
+    .sixFio h2.num2Mobile{
+        display:none;
+    }
+    #num2TextMobile{
+        display:none;
+    }
+    .sixFio div.buttonDiv{
+        width: 100%;
+        height: 48px;
+        margin-top: 40px;
+    }
+    .sixFio a.button{
+        padding: 15px 40px;
+        border-radius: 6px;
+        border: solid 2px #2368b8;
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: #2368b8;
+        width: 80px;
+        height: 18px;
+    }
+    .nativeImageDiv{
+        width: 100%;
+        height: 744px;
+        margin-top: 40px;
+        background-color: rgba(255, 255, 255, 0.75);;
+    }
+    .nativeImage{
+        margin: auto;
+        width:940px;
+        height: 600px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-top: 85px;
+        content: url("../Images/Fiori/nativeImage.png");
+    }
+}
+
+.sevenFio{
+    margin: 60px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+.sevenFio div.eventDiv{
+}
+.sevenFio h4.eventHeader{
+
+}
+#eventD1{
+    margin-top: 10px;
+}
+#eventD2{
+    margin-top: 25px;
+}
+.sevenFio div.rightEventDiv{
+}
+#eventLocationHeader{
+    margin-top: 10px;
+    color: #646464;
+}
+.sevenFio h2.eventLocation{
+    margin-top: 24px;
+    color: #1d1d1d;
+}
+h4.moreFiori{
+    width: 200px;
+    margin:80px auto 0 auto;
+}
+
+@media only screen and (min-width: 1000px) {
+    .sevenFio{
+        margin: 120px auto 0 auto;
+        height: 325px;
+        width: 940px;
+    }
+    .sevenFio div.eventDiv{
+        width: 439px;
+        height: 286px;
+        float: left;
+    }
+    .sevenFio h4.eventHeader{
+        width: 188px;
+        height: 27px;
+        color: #414141;
+    }
+    #eventD1{
+        margin-top: 10px;
+        width: 439px;
+        color: #414141;
+    }
+    #eventD2{
+        margin-top: 25px;
+        width: 439px;
+        color: #414141;
+    }
+    .sevenFio div.rightEventDiv{
+        margin-left: 120px;
+        width: 200px;
+        height: 286px;
+        float: left;
+    }
+    #eventLocationHeader{
+        margin-top: 10px;
+        /* width: 188px; */
+        height: 18px;
+        color: #646464;
+    }
+    .sevenFio h2.eventLocation{
+        margin-top: 24px;
+        height: 184px;
+        width: 156px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        color: #1d1d1d;
+    }
+    h4.moreFiori{
+        margin:120px auto 0 auto;
+        width: 940px;
+        height: 27px;
+        color: #414141;
+    }
+}
+
+.index-box-2 {
+    position: relative;
+    transition: top ease 0.5s;
+    border: 2px;
+    border-radius:10px;
+    margin: 20px 37px 0px 37px;
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    width: calc(100% - 74px);
+    height: 144px;
+    background-color: #ffffff;;
+}
+.index-box-2:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2 div.image{
+    width: 80px;
+    height:78px;
+    content:url("../Images/sdk.png");
+    /*background-image: url("../Images/sdk.png"); */
+    /*background-size: 100%;*/
+    padding-top:10px;
+    margin:0 auto
+}
+#resuable{
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+.index-box-2-1 {
+    position: relative;
+    transition: top ease 0.5s;
+    /*border: 2px;*/
+    border-radius: 10px;
+    margin: 10px 37px 0px 37px;
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    width: calc(100% - 74px);
+    height: 144px;
+    background-color: #ffffff;
+    padding-top: 14px;
+}
+.index-box-2-1:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2-1 div.image{
+    margin: 0 auto 0 auto;
+    width: 95px;
+    height:74px;
+    background-image:url("../Images/fiori.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#uiLib{
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+.index-box-2-2 {
+    position: relative;
+    transition: top ease 0.5s;
+    /*border: 2px;*/
+    border-radius: 10px;
+    margin: 10px 37px 0px 37px;
+    width: calc(100% - 74px);
+    box-shadow: 2px 6px 16px 3px rgba(213, 213, 213, 0.5);
+    height: 144px;
+    background-color: #ffffff;;
+}
+.index-box-2-2:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    transform: translate(0px, -1px) !important;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition-delay: 0s !important;
+}
+
+.index-box-2-2 div.image{
+    width: 200px;
+    height:95px;
+    content:url("../Images/applesap.png");
+    margin:0 auto
+}
+#iosApp{
+    text-align: center;
+    margin-bottom: 10px ;
+    color: #414141;
+}
+/*still having some issues about box2 2-1 22*/
+@media only screen and (min-width: 1000px){
+    .clear{
+        height:208px;
+        /*width: calc(100% - 500);*/
+        width: 940px;
+        margin:16px auto 0px auto;
+
+    }
+
+    .index-box-2 {
+        margin: 0;
+        width: 31.9%;
+        /*width: calc(33% - 20px) !important;*/
+        height: 208px;
+        float: left;
+    }
+    .index-box-2 div.image{
+        width: 102px;
+        height:100px;
+        padding-top:25px;
+        margin:0 auto
+    }
+    #resuable{
+        padding-top:17px;
+        margin-bottom: 30px ;
+    }
+
+    .index-box-2-1 {
+        margin: 0px 0px 0px 2.2%;
+        /*width: calc(33% - 20px) !important;*/
+        width: 31.9%;
+        height: 208px;
+        float: left;
+        padding-top:0;
+    }
+
+    .index-box-2-1 div.image{
+        width: 114px;
+        height:89px;
+        padding-top:0;
+        margin:40px auto 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    #uiLib{
+        text-align: center;
+        padding-top:13px;
+        margin-bottom: 30px ;
+        color: #414141;
+    }
+    .index-box-2-2 {
+        margin:0 0 0 2.2%;
+        /*width: calc(34% - 20px) !important;*/
+        width: 31.8%;
+        height: 208px;
+        float: left;
+        background-color: #ffffff;
+        display: block;
+    }
+
+    .index-box-2-2 div.image{
+        width: 200px;
+        height:95px;
+        padding-top:32px;
+        margin:0 auto
+    }
+    #ignoredBr{
+      display: none;
+    }
+    #iosApp{
+        text-align: center;
+        padding-top:15px;
+        margin-bottom: 30px ;
+        color: #414141;
+    }
+}

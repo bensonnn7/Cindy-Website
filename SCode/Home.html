@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0" charset="UTF-8" >
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/MainPage.css">
+
+    <link rel="stylesheet" href="CSS/text.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/Footer.css">
+
+    <script
+
+            src="//code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="menu.js"></script>
+    <script src ="footer.js"></script>
+    <script src ="button.js"></script>
+
+
+    <title>Cindy Deng</title>
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <header>
+        <div id="navbarContainer">
+            <div class="navbar" id="navbar">
+                <a href="Home.html" class="logo"></a>
+                <nav>
+                    <a class="burger-nav"></a>
+                    <ul>
+                        <li> <a href="Home.html#fioriSection"> <div class="aboutDiv"><p class="Navigation" id="work">WORK</p></div></a></li>
+                        <li> <a href="About.html"> <div class="aboutDiv"><p class="Navigation">ABOUT</p></div></a></li>
+                        <li title="coming soon"><a> <div class="aboutDiv"><p class="Navigation" id="blog">BLOG</p></div></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="backgroundImage">
+        <section class="index">
+            <div>
+                <h1 class="hello">Hello there, I’m Cindy—</h1>
+                <h2 class="introduction"> a designer with experience in design systems and native iOS apps.</h2>
+                <div class="dayAnight">
+                    <div class="day">
+                    <p id="daytime"class="Body2">BY DAY</p>
+                    <hr class="line"/>
+                    <p id="daytimeText"class="Paragraph">UX Design Specialist, Fiori Mobile Team<br>
+                        at SAP Labs, Palo Alto</p>
+                    </div>
+                    <div class="night">
+                    <p id="nighttime"class="Body2">BY NIGHT</p>
+                  <hr class="nightline"/>
+                    <p id="nightimeText" class="Paragraph">Dog parent, homebaker & ceramic enthusiast</p>
+                    </div>
+                </div>
+                <!--<div class="first"><button type="button" onclick="smoothScroll(document.getElementById('second'))">Click Me!</button></div>-->
+                <!--<div class="second" id="second">Hi</div>-->
+                <div>
+                    <a href="#next">
+                        <input class="myButton" type="submit" value="">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+        <section id="fioriSection">
+            <div id="next" class ='index-box-1'>
+                <a href="Fiori/Overview.html">
+                    <div class="box">
+                        <div class="image"></div>
+                        <div class="content">
+                            <p id="design1" class="Body1">Design System | Product Design</p>
+                            <h3>SAP Fiori for iOS</h3>
+
+                            <p id="description"class="Body3">Enterprise Design System</p>
+                            <p id="detail" class="Body1">A design system created based on the iOS Human Interface Guidelines and concepts from SAP Fiori, providing enterprise users with consumer grade experience.<p>
+                            <p id="duration" class="Body1">Jun 2016—Present</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        <div class="clear">
+            <a href="Fiori/SDK.html">
+                <div class ='index-box-2' >
+                    <div class="image"></div>
+                    <div>
+                      <p id="resuable"class="Body2">Defining <br>Reusable Components</p>
+                    </div>
+                </div>
+            </a>
+            <a href="Fiori/Stencils.html">
+                <div class ='index-box-2-1'>
+                    <div class="image"></div>
+                    <div>
+                        <p id="uiLib"class="Body2">Reinventing Our Team's <br>Workflow</p>
+                    </div>
+                </div>
+            </a>
+            <a href="Fiori/Apps.html">
+                <div class ='index-box-2-2' title="coming soon">
+                    <div class="image"></div>
+                    <div>
+                        <p id = "iosApp" class="Body2">Building <br id="ignoredBr">Native iOS Apps</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </section>
+
+
+        <section>
+
+                <div class ='index-box-3'>
+                    <a href="AutoX.html">
+                    <div class="box">
+                        <div class="image"></div>
+                        <div class="content">
+                            <p id = "desigh2" class = "Body1" >Product Design | Visual Design</p>
+                            <h3>AutoX— </h3>
+                            <p id = "AutoDescription" class = "Body3">Autonomous Grocery Delivery App</p>
+                            <p id = "AutoDetail" class = "Body1">A mobile app that enables AutoX to deliver <br>
+                                resturant orders and groceries to their <br>
+                                customers with self-driving cars.</p>
+                            <p id="AutoDuration" class="Body1">Jul—Nov 2018</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+
+                <div class ='index-box-4'>
+                    <a href="Brio.html">
+                    <div class="box">
+                        <div class="image"></div>
+                        <div class="content">
+                            <p id = "design3" class="Body1">Product Design | User Research</p>
+                            <h3>Brio</h3>
+                            <p id= "BrioDescription" class="Body3">Blood Pressure Monitor for Senior Users</p>
+                            <p id="BrioDetail" class="Body1">A detailed study about smart phone usage of senior users, and a design concept that addresses
+                                their needs to monitor their health.</p>
+                            <p id="BrioDuration" class="Body1">Aug—Dec 2015 | BFA Thesis Project</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+        </section>
+
+<footer>
+    <div class="footer-sm">
+        <a href="mailto:cindydeng0612@gmail.com" target="_blank">
+            <img src='Images/email.png' id= "emailIcon" onmouseover="newIcon()" onmouseout="oldIcon()" class="email"/>
+        </a>
+        <a href="Cindy Deng_CV2019.pdf" target="_blank">
+            <img src="Images/cv1.png" id="cvIcon" onmouseover="newIcon1()" onmouseout="oldIcon1()" alt="" class="cv">
+        </a>
+        <a href="https://www.linkedin.com/in/cindydeng0612/" target="_blank">
+            <img src="Images/linkin.png" id="linkInIcon" onmouseover="newIcon2()" onmouseout="oldIcon2()" alt="" class="linkin">
+        </a>
+        <a href="https://www.instagram.com/cindymoku/" target="_blank">
+            <img src="Images/ig.png" id="igIcon" onmouseover="newIcon3()" onmouseout="oldIcon3()" alt="" class="ig">
+        </a>
+    </div>
+    <div class="footer-text">
+        <p class="caption" id="copyright">Cindy Deng © 2019 All Rights Reserved<br></p>
+        <p class="caption" id="developer">Developed by my best friend–Benson Guo</p>
+    </div>
+</footer>
+</body>
+</html>
